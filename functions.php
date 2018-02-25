@@ -121,6 +121,10 @@ function seva_portfolio_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'seva_portfolio_scripts' );
 
+/**
+ * Custom functions for this theme.
+ */
+require get_template_directory() . '/tgm/connect.php';
 
 /**
  * Custom template tags for this theme.

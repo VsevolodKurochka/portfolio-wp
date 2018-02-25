@@ -28,7 +28,7 @@ function my_custom_init(){
 			'has_archive'        => true,
 			'hierarchical'       => false,
 			'menu_position'      => null,
-			'supports'           => array('title', 'thumbnail')
+			'supports'           => array('title', 'editor', 'thumbnail')
 		) 
 	);
 }
