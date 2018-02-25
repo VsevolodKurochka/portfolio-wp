@@ -20,14 +20,7 @@
 		</div>
 		<div class="intro__row row">
 			<div class="intro__column col-12 col-sm-6 col-lg-5">
-				<h1 class="intro__title" data-emergence="hidden" data-text="Vsevolod Kurochka">Vsevolod Kurochka
-				</h1>
-				<!--+e.H1.title
-				| Vsevolod
-				br
-				span.font-weight-extra-light Kurochka
-				| Kurochka
-				-->
+				<h1 class="intro__title" data-emergence="hidden" data-text="Vsevolod Kurochka">Vsevolod Kurochka</h1>
 				<h2 class="intro__subtitle"><span class="intro__subtitle-element">Web developer</span><span class="intro__subtitle-element">Freelancer</span><span class="intro__subtitle-element">4 years experience</span>
 				</h2>
 				<p class="intro__content">Looking for a web developer? I am a freelancer from Cherkassy, Ukraine. With the help of <span class="highlight highlight_brand-1">magic </span>, I will create a modern site for your business.
