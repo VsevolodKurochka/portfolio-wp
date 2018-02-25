@@ -22,7 +22,7 @@ if ( ! function_exists( 'seva_portfolio_setup' ) ) :
 		 * If you're building a theme based on seva-portfolio, use a find and replace
 		 * to change 'seva-portfolio' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'seva-portfolio', get_template_directory() . '/theme/languages' );
+		//load_theme_textdomain( 'seva-portfolio', get_template_directory() . '/theme/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
