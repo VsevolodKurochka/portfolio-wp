@@ -1,6 +1,7 @@
 +b('services')
 
 	+e('item')
+		+relative(0)
 
 		text-align: center
 
@@ -9,6 +10,30 @@
 		padding: 30px
 
 		transform: rotate(1deg)
+
+		box-shadow: 0px 1px 25px #ddd
+
+		+transition
+
+		&:hover
+			top: -2px
+
+		@at-root
+			%services-item-special
+				z-index: 1
+				box-shadow: 0px 1px 25px #ddd
+
+		&:nth-child(2)
+			transform: rotate(6deg)
+			@extend %services-item-special
+
+		&:nth-child(4)
+			transform: rotate(6deg)
+			@extend %services-item-special
+
+		&:nth-child(6)
+			transform: rotate(-6deg)
+			@extend %services-item-special
 
 		+ee('header')
 

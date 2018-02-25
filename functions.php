@@ -107,6 +107,10 @@ add_action( 'after_setup_theme', 'seva_portfolio_setup' );
 function seva_portfolio_scripts() {
 	wp_enqueue_style( 'seva-portfolio-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'seva-portfolio-fonts', 'https://fonts.googleapis.com/css?family=Lora|Oswald:200,700|Roboto:100,400,700&amp;amp;subset=cyrillic');
+
+	wp_enqueue_style( 'seva-portfolio-fontawesome', 'https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+
 	wp_enqueue_style( 'seva-portfolio-css', get_template_directory_uri() . '/assets/css/style.css' );
 
 	wp_enqueue_script( 'seva-portfolio-libs', get_template_directory_uri() . '/assets/js/libs.min.js', array(), '20151215', true );
