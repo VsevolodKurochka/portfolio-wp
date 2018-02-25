@@ -1,3 +1,13 @@
+<?php
+	$args = array(
+	  'post_type'   => 'projects',
+	  'post_status' => 'publish'
+ 	);
+
+ 	$projects = new WP_Query( $args );
+
+ 	if($projects->have_posts()) :
+?>
 <section class="portfolio section-anchor" id="section-portfolio">
 	<div class="container">
 		<div class="portfolio__header row">
@@ -13,7 +23,15 @@
 		</div>
 	</div>
 	<div class="portfolio__grid owl-carousel" id="portfolio-grid">
-		
+		<?php
+			$i = 0;
+			while($projects->have_posts()) :
+				$projects->the_post();
+				project($i);
+				$i++;
+			endwhile;
+			wp_reset_postdata();
+		?>
 	</div>
 	<div class="portfolio__footer">
 		<a class="btn btn_cross btn_cross-brand-1 btn_size-lg" href="#">
@@ -25,3 +43,4 @@
 		</a>
 	</div>
 </section>
+<?php endif; ?>

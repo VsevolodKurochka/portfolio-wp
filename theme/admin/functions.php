@@ -28,6 +28,7 @@ function my_custom_init(){
 			'has_archive'        => true,
 			'hierarchical'       => false,
 			'menu_position'      => null,
+			'taxonomies' 				 => array('post_tag'),
 			'supports'           => array('title', 'editor', 'thumbnail')
 		) 
 	);
