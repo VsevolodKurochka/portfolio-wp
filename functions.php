@@ -22,7 +22,7 @@ if ( ! function_exists( 'seva_portfolio_setup' ) ) :
 		 * If you're building a theme based on seva-portfolio, use a find and replace
 		 * to change 'seva-portfolio' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'seva-portfolio', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'seva-portfolio', get_template_directory() . '/theme/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -121,4 +121,4 @@ add_action( 'wp_enqueue_scripts', 'seva_portfolio_scripts' );
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/theme/inc/template-tags.php';
