@@ -43,9 +43,9 @@ if ( ! function_exists( 'seva_portfolio_setup' ) ) :
 		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
-		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'seva-portfolio' ),
-		) );
+		// register_nav_menus( array(
+		// 	'menu-1' => esc_html__( 'Primary', 'seva-portfolio' ),
+		// ) );
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -60,25 +60,13 @@ if ( ! function_exists( 'seva_portfolio_setup' ) ) :
 		) );
 
 		// Set up the WordPress core custom background feature.
-		add_theme_support( 'custom-background', apply_filters( 'seva_portfolio_custom_background_args', array(
-			'default-color' => 'ffffff',
-			'default-image' => '',
-		) ) );
+		// add_theme_support( 'custom-background', apply_filters( 'seva_portfolio_custom_background_args', array(
+		// 	'default-color' => 'ffffff',
+		// 	'default-image' => '',
+		// ) ) );
 
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
-
-		/**
-		 * Add support for core custom logo.
-		 *
-		 * @link https://codex.wordpress.org/Theme_Logo
-		 */
-		add_theme_support( 'custom-logo', array(
-			'height'      => 250,
-			'width'       => 250,
-			'flex-width'  => true,
-			'flex-height' => true,
-		) );
 	}
 endif;
 add_action( 'after_setup_theme', 'seva_portfolio_setup' );
@@ -90,28 +78,28 @@ add_action( 'after_setup_theme', 'seva_portfolio_setup' );
  *
  * @global int $content_width
  */
-function seva_portfolio_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'seva_portfolio_content_width', 640 );
-}
-add_action( 'after_setup_theme', 'seva_portfolio_content_width', 0 );
+// function seva_portfolio_content_width() {
+// 	$GLOBALS['content_width'] = apply_filters( 'seva_portfolio_content_width', 640 );
+// }
+// add_action( 'after_setup_theme', 'seva_portfolio_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function seva_portfolio_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'seva-portfolio' ),
-		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'seva-portfolio' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-}
-add_action( 'widgets_init', 'seva_portfolio_widgets_init' );
+// function seva_portfolio_widgets_init() {
+// 	register_sidebar( array(
+// 		'name'          => esc_html__( 'Sidebar', 'seva-portfolio' ),
+// 		'id'            => 'sidebar-1',
+// 		'description'   => esc_html__( 'Add widgets here.', 'seva-portfolio' ),
+// 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+// 		'after_widget'  => '</section>',
+// 		'before_title'  => '<h2 class="widget-title">',
+// 		'after_title'   => '</h2>',
+// 	) );
+// }
+// add_action( 'widgets_init', 'seva_portfolio_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
@@ -122,14 +110,10 @@ function seva_portfolio_scripts() {
 	wp_enqueue_style( 'seva-portfolio-css', get_template_directory_uri() . '/assets/css/style.css' );
 
 	wp_enqueue_script( 'seva-portfolio-libs', get_template_directory_uri() . '/assets/js/libs.min.js', array(), '20151215', true );
+
 	wp_enqueue_script( 'seva-portfolio-jquery-scripts', get_template_directory_uri() . '/assets/js/jquery.main.js', array(), '20151215', true );
+
 	wp_enqueue_script( 'seva-portfolio-vanilla-scripts', get_template_directory_uri() . '/assets/js/vanilla.main.js', array(), '20151215', true );
-
-	// wp_enqueue_script( 'seva-portfolio-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-
-	// if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-	// 	wp_enqueue_script( 'comment-reply' );
-	// }
 }
 add_action( 'wp_enqueue_scripts', 'seva_portfolio_scripts' );
 
@@ -138,8 +122,3 @@ add_action( 'wp_enqueue_scripts', 'seva_portfolio_scripts' );
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Functions which enhance the theme by hooking into WordPress.
- */
-require get_template_directory() . '/inc/template-functions.php';
