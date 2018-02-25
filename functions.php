@@ -131,3 +131,8 @@ require get_template_directory() . '/theme/inc/template-tags.php';
  * Custom functions for this theme.
  */
 require get_template_directory() . '/theme/inc/functions.php';
+
+/**
+ * Custom functions for this theme.
+ */
+require get_template_directory() . '/theme/admin/functions.php';
