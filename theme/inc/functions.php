@@ -55,11 +55,13 @@ function project($i) {
 				<p class="case__subtitle"><?php the_field('type'); ?></p>
 				<p class="case__title"><?php the_title(); ?></p>
 				<div class="case__skills">
-					<span class="case__skills-item">CSS</span>
-					<span class="case__skills-item">HTML</span>
-					<span class="case__skills-item">JS</span>
-					<span class="case__skills-item">PHP</span>
-					<span class="case__skills-item">WP</span>
+					<?php
+						$tags = get_tags();
+				    foreach($tags as $tag) { ?>
+						<span class="case__skills-item"><?php echo $tag->name; ?></span>
+				  <?php
+				   	}
+					?>
 				</div>
 				<div class="case__body-content">
 					<p>Forget about reviewing hundreds of questionn aires every day, wasting money on meaningless correspondence!</p>
