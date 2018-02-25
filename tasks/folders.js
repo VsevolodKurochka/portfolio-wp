@@ -4,7 +4,7 @@
  */
 
 const folders = {
-	build: 'build',
+	build: 'assets',
 	src: 'src'
 };
 
