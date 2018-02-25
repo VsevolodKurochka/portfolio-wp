@@ -1,0 +1,13 @@
++b.FOOTER.footer
+	+e.container.container
+		+e.row.row
+			.col-12.col-sm-8
+				+e.UL.menu
+					for item in navigation
+						li
+							a(href=item.link)=item.name
+			.col-12.col-sm-4
+				+social('footer__social')
+	+e.container.container
+		+e.copyright
+			p © 2014-2018. VSEVOLOD KUROCHKA. ALL RIGHTS RESERVED
