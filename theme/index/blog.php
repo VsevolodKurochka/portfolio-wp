@@ -1,7 +1,8 @@
 <?php
 	$args = array(
-	  'post_type'   => 'post',
-	  'post_status' => 'publish'
+	  'post_type'   		=> 'post',
+	  'post_status' 		=> 'publish',
+	  'posts_per_page'	=> 4
  	);
 
  	$blog = new WP_Query( $args );
@@ -23,7 +24,7 @@
 			$i = 0;
 			while($blog->have_posts()) :
 				$blog->the_post();
-				project('blog', $i, 6);
+				project('blog', $i, 0);
 				$i++;
 			endwhile;
 			wp_reset_postdata();
