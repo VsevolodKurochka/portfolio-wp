@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 	if ($(window).width() < 1025) {
 
-		$('#portfolio-grid').owlCarousel({
+		$('.js-small-carousel').owlCarousel({
 			loop: true,
 			items: 1,
 			autoplay: false,

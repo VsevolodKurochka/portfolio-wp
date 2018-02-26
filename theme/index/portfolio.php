@@ -22,12 +22,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="portfolio__grid owl-carousel" id="portfolio-grid">
+	<div class="portfolio__grid owl-carousel js-small-carousel" id="portfolio-grid">
 		<?php
 			$i = 0;
 			while($projects->have_posts()) :
 				$projects->the_post();
-				project($i);
+				project($i, 3);
 				$i++;
 			endwhile;
 			wp_reset_postdata();

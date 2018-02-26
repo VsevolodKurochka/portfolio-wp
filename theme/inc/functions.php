@@ -31,8 +31,8 @@ function social($class_name){
 	echo $return;
 }
 
-function project($i) {
-	$size = ($i == 3) ? 'large' : 'small';
+function project($i, $value) {
+	$size = ($i == $value) ? 'large' : 'small';
 ?>
 <div class="case">
 	<div class="case__inner">
@@ -64,11 +64,11 @@ function project($i) {
 					?>
 				</div>
 				<div class="case__body-content">
-					<p>Forget about reviewing hundreds of questionn aires every day, wasting money on meaningless correspondence!</p>
+					<p><?php the_content(); ?></p>
 				</div>
 			</div>
-			<div class="case__footer"><span class="case__link btn btn_plus"><i></i>
-				<p>more</p></span>
+			<div class="case__footer">
+				<span class="case__link btn btn_plus"><i></i><p>more</p></span>
 			</div>
 		</div>
 	</div>
