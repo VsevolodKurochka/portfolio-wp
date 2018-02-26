@@ -6,7 +6,7 @@
 					<button class="hamburger hamburger_effect-2" type="button" id="js-nav-hamburger"><span class="hamburger__lines"><span></span><span></span><span></span><span></span></span>
 					</button>
 					<div class="nav__logo-content">
-						<p class="nav__logo-content-text">Kurochka</p>
+						<a class="nav__logo-content-text" src="<?php echo site_url(); ?>">Kurochka</a>
 					</div>
 				</div>
 				<nav class="nav__menu" id="js-navigation-menu"><ul>
