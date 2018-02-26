@@ -32,6 +32,37 @@ function my_custom_init(){
 			'supports'           => array('title', 'editor', 'thumbnail')
 		) 
 	);
+
+	register_post_type('testimonials', 
+		array(
+			'labels'             => array(
+				'name'               => 'testimonial',
+				'singular_name'      => 'testimonial',
+				'add_new'            => 'Add testimonial',
+				'add_new_item'       => 'Add new testimonial',
+				'edit_item'          => 'Edit testimonial',
+				'new_item'           => 'New testimonial',
+				'view_item'          => 'View testimonial',
+				'search_items'       => 'Find testimonials',
+				'not_found'          => 'No testimonials',
+				'not_found_in_trash' => 'Testimonials not found in trash',
+				'parent_item_colon'  => '',
+				'menu_name'          => 'Testimonials'
+		  ),
+			'public'             => true,
+			'publicly_queryable' => true,
+			'show_ui'            => true,
+			'show_in_menu'       => true,
+			'query_var'          => true,
+			'rewrite'            => true,
+			'capability_type'    => 'post',
+			'has_archive'        => true,
+			'hierarchical'       => false,
+			'menu_position'      => null,
+			'taxonomies' 				 => array('post_tag'),
+			'supports'           => array('title', 'editor', 'thumbnail')
+		) 
+	);
 }
 
 ?>

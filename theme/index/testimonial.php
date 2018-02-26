@@ -1,3 +1,13 @@
+<?php
+	$args = array(
+	  'post_type'   => 'testimonials',
+	  'post_status' => 'publish'
+ 	);
+
+ 	$testimonials = new WP_Query( $args );
+
+ 	if($testimonials->have_posts()) :
+?>
 <section class="testimonial" id="section-testimonial">
 	<div class="testimonial__shape testimonial__shape_right shape shape_brand-1 shape_transparent" data-emergence="hidden">
 		<div class="shape__inner">
@@ -19,60 +29,17 @@
 			</div>
 			<div class="col-12 col-sm-6 col-md-5">
 				<div class="testimonial__content owl-carousel" id="owl-testimonial">
-					<div class="testimonial__item">
-						<div class="testimonial__item-header">
-							<div class="testimonial__item-image-wrapper"><img class="testimonial__item-image" src="img/image1.jpg" alt="" role="presentation"/>
-							</div>
-						</div>
-						<div class="testimonial__item-body">
-							<div class="testimonial__item-body-content">
-								<p>Man is the word! He said he did. It's nice to work, I advise everyone.</p>
-							</div>
-						</div>
-						<div class="testimonial__item-footer">
-							<p class="testimonial__item-title">Dmitry Kirpach
-							</p>
-							<p class="testimonial__item-subtitle">CEO &amp; Founder
-							</p>
-						</div>
-					</div>
-					<div class="testimonial__item">
-						<div class="testimonial__item-header">
-							<div class="testimonial__item-image-wrapper"><img class="testimonial__item-image" src="img/image2.jpg" alt="" role="presentation"/>
-							</div>
-						</div>
-						<div class="testimonial__item-body">
-							<div class="testimonial__item-body-content">
-								<p>Man is the word! He said he did. It's nice to work, I advise everyone.</p>
-							</div>
-						</div>
-						<div class="testimonial__item-footer">
-							<p class="testimonial__item-title">Dmitry Kirpach
-							</p>
-							<p class="testimonial__item-subtitle">CEO &amp; Founder
-							</p>
-						</div>
-					</div>
-					<div class="testimonial__item">
-						<div class="testimonial__item-header">
-							<div class="testimonial__item-image-wrapper"><img class="testimonial__item-image" src="img/image3.jpg" alt="" role="presentation"/>
-							</div>
-						</div>
-						<div class="testimonial__item-body">
-							<div class="testimonial__item-body-content">
-								<p>Man is the word! He said he did. It's nice to work, I advise everyone.</p>
-							</div>
-						</div>
-						<div class="testimonial__item-footer">
-							<p class="testimonial__item-title">Dmitry Kirpach
-							</p>
-							<p class="testimonial__item-subtitle">CEO &amp; Founder
-							</p>
-						</div>
-					</div>
+					<?php
+						while($testimonials->have_posts()) :
+							$testimonials->the_post();
+							testimonial_item();
+						endwhile;
+						wp_reset_postdata();
+					?>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- +e.P.letters-bg.letters-bg(data-emergence="hidden") testimonials-->
 </section>
+<?php endif; ?>

@@ -43,8 +43,10 @@ if ( ! function_exists( 'seva_portfolio_setup' ) ) :
 		add_theme_support( 'post-thumbnails' );
 
 		if ( function_exists( 'add_image_size' ) ) {
-			add_image_size( 'project-large', 1300, 800, true ); // 300 в ширину и без ограничения в высоту
-			add_image_size( 'project-small', 600, 600, true ); // Кадрирование изображения
+			add_image_size( 'project-large', 1300, 800, true );
+			add_image_size( 'project-small', 600, 600, true );
+
+			add_image_size( 'testimonial-small', 120, 120, true );
 		}
 
 		// This theme uses wp_nav_menu() in one location.

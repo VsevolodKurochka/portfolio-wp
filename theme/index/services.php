@@ -2,11 +2,11 @@
 	$items = [
 		[
 			'icon'	=> 'theme/components/icons/service-1',
-			'title'	=> 'Creating a turnkey website'
+			'title'	=> 'Turnkey website'
 		],
 		[
 			'icon'	=> 'theme/components/icons/service-2',
-			'title'	=> 'Creation of selling landings'
+			'title'	=> 'Selling landing pages'
 		],
 		[
 			'icon'	=> 'theme/components/icons/service-3',
@@ -14,7 +14,7 @@
 		],
 		[
 			'icon'	=> 'theme/components/icons/service-4',
-			'title'	=> 'Programming (WordPress, Opencart)'
+			'title'	=> 'Programming'
 		],
 		[
 			'icon'	=> 'theme/components/icons/service-5',
@@ -22,7 +22,7 @@
 		],
 		[
 			'icon'	=> 'theme/components/icons/service-6',
-			'title'	=> 'Support for existing projects'
+			'title'	=> 'Technical Support'
 		]
 	];
 ?>

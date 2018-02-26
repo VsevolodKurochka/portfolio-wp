@@ -19,7 +19,7 @@ get_template_part('theme/index/skills');
 get_template_part('theme/index/services');
 get_template_part('theme/index/portfolio');
 get_template_part('theme/index/catching');
-get_template_part('theme/index/testimonials');
+get_template_part('theme/index/testimonial');
 get_template_part('theme/index/contacts');
 
 get_footer();

@@ -74,5 +74,30 @@ function project($i) {
 	</div>
 </div>
 <?php
-	}
+}
 ?>
+
+<?php function testimonial_item(){ ?>
+	<div class="testimonial__item">
+		<?php if(has_post_thumbnail()) : ?>		
+		<div class="testimonial__item-header">
+			<div class="testimonial__item-image-wrapper">
+				<?php
+					the_post_thumbnail('testimonial-small', array(
+						'class'	=> 'testimonial__item-image'
+					)); 
+				?>
+			</div>
+		</div>
+		<?php endif; ?>
+		<div class="testimonial__item-body">
+			<div class="testimonial__item-body-content">
+				<p><?php the_content(); ?></p>
+			</div>
+		</div>
+		<div class="testimonial__item-footer">
+			<p class="testimonial__item-title"><?php the_title(); ?></p>
+			<p class="testimonial__item-subtitle"><?php the_field('position'); ?></p>
+		</div>
+	</div>
+<?php } ?>
