@@ -16,18 +16,19 @@
 					<h3 class="group__title" data-emergence="hidden" data-text="Case Projects">Case<br>
 						<span class="color-brand-1">Projects</span>
 					</h3>
-					<div class="group__content">For <span class="highlight highlight_brand-1">4 years of work </span>, I have collected many projects that I can share with you. For each project, I made considerable efforts to ensure that everyone was happy!
+					<div class="group__content">
+						<p>For <span class="highlight highlight_brand-1">4 years of work </span>, I have collected many projects that I can share with you. For each project, I made considerable efforts to ensure that everyone was happy!</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="portfolio__grid owl-carousel js-small-carousel" id="portfolio-grid">
+	<div class="portfolio__grid owl-carousel small-carousel" id="portfolio-grid">
 		<?php
 			$i = 0;
 			while($projects->have_posts()) :
 				$projects->the_post();
-				project($i, 3);
+				project('portfolio', $i, 3);
 				$i++;
 			endwhile;
 			wp_reset_postdata();

@@ -23,7 +23,7 @@
 			$i = 0;
 			while($blog->have_posts()) :
 				$blog->the_post();
-				project($i, 6);
+				project('blog', $i, 6);
 				$i++;
 			endwhile;
 			wp_reset_postdata();

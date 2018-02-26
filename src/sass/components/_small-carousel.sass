@@ -1,0 +1,18 @@
++b('small-carousel')
+	+max(md)
+		.owl
+			&-nav
+				+absolute(0, 0)
+			&-prev,
+			&-next
+				+size(75px)
+				text-align: center
+				color: #fff
+				line-height: 75px
+				font-size: 40px
+				background-color: $color-brand-1
+				margin-bottom: 15px
+				+transition
+
+				&:hover
+					background-color: $color-brand-2
