@@ -18,7 +18,7 @@ get_template_part('theme/index/intro');
 get_template_part('theme/index/skills');
 get_template_part('theme/index/services');
 get_template_part('theme/index/portfolio');
-get_template_part('theme/index/catching');
+//get_template_part('theme/index/catching');
 get_template_part('theme/index/testimonial');
 get_template_part('theme/index/blog');
 get_template_part('theme/index/contacts');
