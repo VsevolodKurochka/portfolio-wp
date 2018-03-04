@@ -41,7 +41,7 @@ function project($type = null, $i = null, $value = null) {
 		$thumbnail_name = 'project-default';
 	}
 	
-	$tags = get_tags();
+	//$tags = get_tags();
 
 	$link = ($type == 'blog') ? get_permalink() : get_field('link');
 
@@ -64,15 +64,6 @@ function project($type = null, $i = null, $value = null) {
 					<p class="case__subtitle"><?php the_field('type'); ?></p>
 				<?php endif; ?>
 				<p class="case__title"><?php the_title(); ?></p>
-				<?php
-					if($tags) :
-				?>
-				<div class="case__skills">
-					<?php foreach($tags as $tag) : ?>
-						<span class="case__skills-item"><?php echo $tag->name; ?></span>
-				  <?php endforeach; ?>
-				</div>
-				<?php endif; ?>
 				<div class="case__body-content">
 					<?php has_excerpt() ? the_excerpt(): the_content(); ?>
 				</div>
@@ -116,35 +107,44 @@ function project($type = null, $i = null, $value = null) {
 <?php } ?>
 
 <?php function custom_header(){ ?>
-	<header class="header">
-		<div class="container">
-			<h1 class="header__title">
-				<?php
-					if( is_post_type_archive() ) :
-            post_type_archive_title();
+	<section class="intro" id="section-intro">
+		<div class="intro__container container">
+			<div class="intro__shape intro__shape_custom shape" data-emergence="hidden">
+				<div class="shape__inner">
+					<div class="shape__inner-shape shape__inner-shape_brand-1">
+					</div>
+				</div>
+			</div>
+			<div class="intro__row row">
+				<div class="intro__column col-12 col-sm-6 col-lg-5">
+					<h1 class="intro__title" data-emergence="hidden">
+						<?php
+							if( is_post_type_archive() ) :
+								post_type_archive_title();
 
-          elseif( is_search() ) :
-            if( have_posts() ) :
-              echo get_search_query();
-            else:
-              esc_html_e( 'Мы ничего не нашли', 'damir' );
-            endif;
+							elseif( is_search() ) :
+								if( have_posts() ) :
+									echo get_search_query();
+								else:
+									esc_html_e( 'Мы ничего не нашли', 'damir' );
+								endif;
 
-          elseif(is_category()) :
-            single_cat_title();
+							elseif(is_category()) :
+								single_cat_title();
 
-          elseif( is_404() ) :
-            esc_html_e( 'К сожалению! Эта страница не найдена.', 'damir' );
+							elseif( is_404() ) :
+								esc_html_e( 'К сожалению! Эта страница не найдена.', 'damir' );
 
-          elseif( is_tax() ) :
-            single_term_title();
+							elseif( is_tax() ) :
+								single_term_title();
 
-          else:
-            the_title();
+							else:
+								the_title();
 
-          endif;
-				?>
-			</h1>
+							endif;
+						?>
+					</h1>
+			</div>
 		</div>
-	</header>
+	</section>
 <?php } ?>

@@ -15,8 +15,8 @@
 					transform: uppercase
 				font:
 					weight: bold
-				+transition
-				+relative
+				+transition()
+				+relative()
 
 			+max(md)
 				margin-bottom: 10px
@@ -36,12 +36,11 @@
 				a
 					padding-top: 7.5px
 					padding-bottom: 7.5px
-
+					color: $color-white
 					+linkEffect3
+
 	+min(md)
-		+m('scrolled')
-			#{$self}
-				+e("menu")
-					+ee("item")
-						a
-							color: $color-black
+		&_scrolled &
+			&__menu-item
+				a
+					color: $color-black

@@ -15,6 +15,9 @@
 			<div class="col-12 col-sm-10">
 				<div class="group group_inline">
 					<h3 class="group__title" data-emergence="hidden" data-text="Blog">Blog</h3>
+					<div class="group__content">
+						<p>I'll tell you a little secrets that I use when developing sites.</p>
+					</div>
 				</div>
 			</div>
 		</div>

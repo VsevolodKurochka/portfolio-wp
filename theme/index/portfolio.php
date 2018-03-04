@@ -35,7 +35,7 @@
 		?>
 	</div>
 	<div class="portfolio__footer">
-		<a class="btn btn_cross btn_cross-brand-1 btn_size-lg" href="#">
+		<a class="btn btn_cross btn_cross-brand-1 btn_size-lg" href="<?php echo site_url('/projects'); ?>">
 			<span class="fl"></span>
 			<span class="sfl"></span>
 			<span class="cross"></span>
