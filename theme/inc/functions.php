@@ -31,11 +31,16 @@ function social($class_name){
 	echo $return;
 }
 
-function project($type, $i, $value) {
+function project($type = null, $i = null, $value = null) {
 
 	// Define variables
-	$size = ($i == $value) ? 'large' : 'small';
-	$thumbnail_name = 'project-' . $size;
+	if( $i != null && $value != null ){
+		$size = ($i == $value) ? 'large' : 'small';
+		$thumbnail_name = 'project-' . $size;
+	}else{
+		$thumbnail_name = 'project-default';
+	}
+	
 	$tags = get_tags();
 
 	$link = ($type == 'blog') ? get_permalink() : get_field('link');
@@ -108,4 +113,38 @@ function project($type, $i, $value) {
 			<p class="testimonial__item-subtitle"><?php the_field('position'); ?></p>
 		</div>
 	</div>
+<?php } ?>
+
+<?php function custom_header(){ ?>
+	<header class="header">
+		<div class="container">
+			<h1 class="header__title">
+				<?php
+					if( is_post_type_archive() ) :
+            post_type_archive_title();
+
+          elseif( is_search() ) :
+            if( have_posts() ) :
+              echo get_search_query();
+            else:
+              esc_html_e( 'Мы ничего не нашли', 'damir' );
+            endif;
+
+          elseif(is_category()) :
+            single_cat_title();
+
+          elseif( is_404() ) :
+            esc_html_e( 'К сожалению! Эта страница не найдена.', 'damir' );
+
+          elseif( is_tax() ) :
+            single_term_title();
+
+          else:
+            the_title();
+
+          endif;
+				?>
+			</h1>
+		</div>
+	</header>
 <?php } ?>

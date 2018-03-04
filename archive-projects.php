@@ -2,13 +2,12 @@
 
 get_header(); 
 
-if(have_posts()) : 
+if(have_posts()) :
+	echo '<div class="archive-grid">';
 	while( have_posts() ) : the_post();
-    the_title();
-    echo '<div class="entry-content">';
-    the_content();
-    echo '</div>';
-	endwhile; 
+    project();
+	endwhile;
+	echo '</div>';
 endif;
 get_footer(); 
 ?>

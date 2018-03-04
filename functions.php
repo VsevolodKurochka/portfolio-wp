@@ -45,6 +45,7 @@ if ( ! function_exists( 'seva_portfolio_setup' ) ) :
 		if ( function_exists( 'add_image_size' ) ) {
 			add_image_size( 'project-large', 1300, 800, true );
 			add_image_size( 'project-small', 600, 600, true );
+			add_image_size( 'project-defaut', 400, 400, true );
 
 			add_image_size( 'testimonial-small', 120, 120, true );
 		}
