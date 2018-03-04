@@ -1,0 +1,16 @@
+$letters-title-size: ('default': 45px, 'xs': 60px, 'sm': 70px, 'md': 80px, 'lg': 90px)
++b('header')
+	background-color: $color-brand-1
+	color: $color-white
+
+	+min(md)
+		+padding-y(150px)
+
+	+e('title')
+
+		line-height: 1.1
+		font-weight: bold
+
+		+font('secondary')
+		+fs-simple($letters-title-size)
+		+min(md)

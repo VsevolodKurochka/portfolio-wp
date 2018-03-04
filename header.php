@@ -28,3 +28,8 @@
 <body <?php body_class(); ?>>
 	<?php get_template_part('theme/components/nav'); ?>
 	<main class="site">
+		<?php 
+			if(!is_front_page()) : 
+				custom_header();
+			endif;
+		?>

@@ -1,0 +1,9 @@
++b('archive')
+
+	+e('grid')
+		@supports (display: grid)
+			
+			+min(md)
+				display: grid
+				grid-gap: getComp(gutter)
+				grid-template-columns: repeat(3, 1fr)

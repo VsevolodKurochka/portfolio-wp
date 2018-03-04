@@ -5,7 +5,7 @@ function my_custom_init(){
 	register_post_type('projects', 
 		array(
 			'labels'             => array(
-				'name'               => 'Project',
+				'name'               => 'Projects',
 				'singular_name'      => 'Project',
 				'add_new'            => 'Add project',
 				'add_new_item'       => 'Add new project',
