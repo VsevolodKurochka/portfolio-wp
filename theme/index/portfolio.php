@@ -17,7 +17,7 @@
 						<span class="color-brand-1">Projects</span>
 					</h3>
 					<div class="group__content">
-						<p>For <span class="highlight highlight_brand-1">4 years of work </span>, I have collected many projects that I can share with you. For each project, I made considerable efforts to ensure that everyone was happy!</p>
+						<p>For <span class="highlight highlight_brand-2">4 years of work </span>, I have collected many projects that I can share with you. For each project, I made considerable efforts to ensure that everyone was happy!</p>
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,7 @@
 		?>
 	</div>
 	<div class="portfolio__footer">
-		<a class="btn btn_cross btn_cross-brand-1 btn_size-lg" href="<?php echo site_url('/projects'); ?>">
+		<a class="btn btn_brand-3 btn_lg effect effect_bounce-top" href="<?php echo site_url('/projects'); ?>">
 			<span class="fl"></span>
 			<span class="sfl"></span>
 			<span class="cross"></span>
