@@ -1,7 +1,7 @@
 <div class="fixed fixed_md-top">
 	<div class="nav nav_style" id="navigation">
 		<div class="nav__container container">
-			<div class="nav__row flex flex-y-center">
+			<div class="nav__row row">
 				<div class="nav__logo">
 					<button class="hamburger hamburger_effect-2" type="button" id="js-nav-hamburger"><span class="hamburger__lines"><span></span><span></span><span></span><span></span></span>
 					</button>
