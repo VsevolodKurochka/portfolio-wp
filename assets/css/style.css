@@ -796,11 +796,11 @@ b,
 }
 
 .color-brand-1 {
-  color: #604b8c;
+  color: #5031a9;
 }
 
 .color-brand-2 {
-  color: #cdbf63;
+  color: #ffc601;
 }
 
 .color-black {
@@ -808,11 +808,11 @@ b,
 }
 
 .bg-brand-1 {
-  background-color: #604b8c;
+  background-color: #5031a9;
 }
 
 .bg-brand-2 {
-  background-color: #cdbf63;
+  background-color: #ffc601;
 }
 
 .offset-static-xs {
@@ -1060,7 +1060,7 @@ b,
 
 .btn_cross .sfl {
   z-index: 1;
-  background: #3e305a;
+  background: #34206e;
   -webkit-transition: .7s;
   -o-transition: .7s;
   transition: .7s;
@@ -1143,7 +1143,7 @@ b,
   height: 20px;
   margin: -10px -1px;
   content: "";
-  background: #604b8c;
+  background: #5031a9;
 }
 
 .btn_cross i:before {
@@ -1229,29 +1229,29 @@ b,
 }
 
 .btn_cross-brand-1 {
-  border-right-color: #604b8c;
-  border-bottom-color: #604b8c;
+  border-right-color: #5031a9;
+  border-bottom-color: #5031a9;
 }
 
 .btn_cross-brand-1:before, .btn_cross-brand-1:after {
-  background-color: #604b8c;
+  background-color: #5031a9;
 }
 
 .btn_cross-brand-1 i:before, .btn_cross-brand-1 i:after {
-  background: #604b8c;
+  background: #5031a9;
 }
 
 .btn_cross-brand-1 .fl,
 .btn_cross-brand-1 .sfl {
-  background: #604b8c;
+  background: #5031a9;
 }
 
 .btn_cross-brand-1 .sfl {
-  background: #271f39;
+  background: #211446;
 }
 
 .btn_cross-brand-1 .cross:before, .btn_cross-brand-1 .cross:after {
-  background-color: #271f39;
+  background-color: #211446;
 }
 
 .btn_plus {
@@ -1265,7 +1265,7 @@ b,
   width: 0;
   height: 50%;
   content: "";
-  background-color: #604b8c;
+  background-color: #5031a9;
   opacity: 0;
   -webkit-transition-timing-function: cubic-bezier(.86, 0, .07, 1);
   -o-transition-timing-function: cubic-bezier(.86, 0, .07, 1);
@@ -1314,7 +1314,7 @@ b,
   height: 100%;
   margin: -8px 0px;
   content: "";
-  background: #604b8c;
+  background: #5031a9;
   -webkit-transition: .4s;
           -o-transition: .4s;
           transition: .4s;
@@ -1357,16 +1357,20 @@ b,
   margin-bottom: 5px;
 }
 
-.btn_size-lg {
-  padding: 12px 18px 10px 20px;
-  font-size: 15px;
-}
-
 @media (min-width: 768px) {
-  .btn_size-lg {
+  .btn_lg {
     padding: 17px 25px 15px 25px;
     font-size: 18px;
   }
+}
+
+.btn_brand-3 {
+  color: #fff;
+  background-color: #f14b59;
+}
+
+.btn_brand-3:before {
+  background-color: #de1123;
 }
 
 .effect:before {
@@ -1583,7 +1587,7 @@ b,
   left: 0;
   width: 0;
   height: 1px;
-  background-color: #604b8c;
+  background-color: #5031a9;
   -webkit-transition: all .5s ease;
   -o-transition: all .5s ease;
   transition: all .5s ease;
@@ -1600,7 +1604,7 @@ input:focus + .form__line {
   width: 100%;
   height: 1px;
   content: "";
-  background-color: #cdbf63;
+  background-color: #ffc601;
 }
 
 @media (min-width: 480px) {
@@ -1710,19 +1714,19 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .control_default input[type="radio"] + .control__indicator {
-  border-color: #604b8c;
+  border-color: #5031a9;
 }
 
 .control_default input[type="radio"] + .control__indicator:before {
-  background-color: #604b8c;
+  background-color: #5031a9;
 }
 
 .control_default input[type="checkbox"] + .control__indicator {
-  border-color: #604b8c;
+  border-color: #5031a9;
 }
 
 .control_default input[type="checkbox"] + .control__indicator:before {
-  border-color: #604b8c;
+  border-color: #5031a9;
 }
 
 .group {
@@ -1768,121 +1772,121 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @-webkit-keyframes group-title-anim-1 {
   0% {
-    clip: rect(136px, 600px, 16px, 0);
+    clip: rect(14px, 600px, 191px, 0);
   }
   12.5% {
-    clip: rect(146px, 600px, 68px, 0);
+    clip: rect(95px, 600px, 192px, 0);
   }
   25% {
-    clip: rect(123px, 600px, 6px, 0);
+    clip: rect(132px, 600px, 34px, 0);
   }
   37.5% {
-    clip: rect(110px, 600px, 121px, 0);
+    clip: rect(31px, 600px, 111px, 0);
   }
   50% {
-    clip: rect(34px, 600px, 163px, 0);
+    clip: rect(26px, 600px, 13px, 0);
   }
   62.5% {
-    clip: rect(8px, 600px, 119px, 0);
+    clip: rect(26px, 600px, 115px, 0);
   }
   75% {
-    clip: rect(113px, 600px, 198px, 0);
+    clip: rect(188px, 600px, 62px, 0);
   }
   87.5% {
-    clip: rect(192px, 600px, 19px, 0);
+    clip: rect(78px, 600px, 156px, 0);
   }
   100% {
-    clip: rect(162px, 600px, 102px, 0);
+    clip: rect(43px, 600px, 145px, 0);
   }
 }
 
 @keyframes group-title-anim-1 {
   0% {
-    clip: rect(136px, 600px, 16px, 0);
+    clip: rect(14px, 600px, 191px, 0);
   }
   12.5% {
-    clip: rect(146px, 600px, 68px, 0);
+    clip: rect(95px, 600px, 192px, 0);
   }
   25% {
-    clip: rect(123px, 600px, 6px, 0);
+    clip: rect(132px, 600px, 34px, 0);
   }
   37.5% {
-    clip: rect(110px, 600px, 121px, 0);
+    clip: rect(31px, 600px, 111px, 0);
   }
   50% {
-    clip: rect(34px, 600px, 163px, 0);
+    clip: rect(26px, 600px, 13px, 0);
   }
   62.5% {
-    clip: rect(8px, 600px, 119px, 0);
+    clip: rect(26px, 600px, 115px, 0);
   }
   75% {
-    clip: rect(113px, 600px, 198px, 0);
+    clip: rect(188px, 600px, 62px, 0);
   }
   87.5% {
-    clip: rect(192px, 600px, 19px, 0);
+    clip: rect(78px, 600px, 156px, 0);
   }
   100% {
-    clip: rect(162px, 600px, 102px, 0);
+    clip: rect(43px, 600px, 145px, 0);
   }
 }
 
 @-webkit-keyframes group-title-anim-2 {
   0% {
-    clip: rect(7px, 600px, 49px, 0);
+    clip: rect(42px, 600px, 137px, 0);
   }
   12.5% {
-    clip: rect(109px, 600px, 8px, 0);
+    clip: rect(167px, 600px, 92px, 0);
   }
   25% {
-    clip: rect(138px, 600px, 17px, 0);
+    clip: rect(62px, 600px, 185px, 0);
   }
   37.5% {
-    clip: rect(164px, 600px, 135px, 0);
+    clip: rect(25px, 600px, 148px, 0);
   }
   50% {
-    clip: rect(66px, 600px, 187px, 0);
+    clip: rect(61px, 600px, 193px, 0);
   }
   62.5% {
-    clip: rect(77px, 600px, 159px, 0);
+    clip: rect(71px, 600px, 40px, 0);
   }
   75% {
-    clip: rect(138px, 600px, 15px, 0);
+    clip: rect(155px, 600px, 58px, 0);
   }
   87.5% {
-    clip: rect(119px, 600px, 3px, 0);
+    clip: rect(102px, 600px, 124px, 0);
   }
   100% {
-    clip: rect(106px, 600px, 124px, 0);
+    clip: rect(57px, 600px, 166px, 0);
   }
 }
 
 @keyframes group-title-anim-2 {
   0% {
-    clip: rect(7px, 600px, 49px, 0);
+    clip: rect(42px, 600px, 137px, 0);
   }
   12.5% {
-    clip: rect(109px, 600px, 8px, 0);
+    clip: rect(167px, 600px, 92px, 0);
   }
   25% {
-    clip: rect(138px, 600px, 17px, 0);
+    clip: rect(62px, 600px, 185px, 0);
   }
   37.5% {
-    clip: rect(164px, 600px, 135px, 0);
+    clip: rect(25px, 600px, 148px, 0);
   }
   50% {
-    clip: rect(66px, 600px, 187px, 0);
+    clip: rect(61px, 600px, 193px, 0);
   }
   62.5% {
-    clip: rect(77px, 600px, 159px, 0);
+    clip: rect(71px, 600px, 40px, 0);
   }
   75% {
-    clip: rect(138px, 600px, 15px, 0);
+    clip: rect(155px, 600px, 58px, 0);
   }
   87.5% {
-    clip: rect(119px, 600px, 3px, 0);
+    clip: rect(102px, 600px, 124px, 0);
   }
   100% {
-    clip: rect(106px, 600px, 124px, 0);
+    clip: rect(57px, 600px, 166px, 0);
   }
 }
 
@@ -1898,7 +1902,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .group__title[data-emergence="visible"]:after {
   left: 2px;
-  text-shadow: -1px 0 #604b8c;
+  text-shadow: -1px 0 #5031a9;
   animation: group-title-anim-1 2s infinite linear alternate-reverse;
 }
 
@@ -1910,7 +1914,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .group__title-element {
   display: block;
-  color: #604b8c;
+  color: #5031a9;
 }
 
 @media (min-width: 1025px) {
@@ -1995,11 +1999,17 @@ input[type="checkbox"]:checked + .control__indicator:before {
   display: inline-block;
   padding: 1px 7.5px;
   font-weight: bold;
-  background-color: #604b8c;
+  background-color: #5031a9;
 }
 
-.highlight_brand-1 {
+.highlight_brand-2 {
   color: #fff;
+  background-color: #f14b59;
+}
+
+.highlight_brand-3 {
+  color: #fff;
+  background-color: #f14b59;
 }
 
 .letters-bg {
@@ -2075,7 +2085,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 .line__item {
   width: 1px;
   height: 100%;
-  background-color: #c7b750;
+  background-color: #e7b300;
 }
 
 .shape {
@@ -2142,7 +2152,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .shape__inner-shape_brand-1 {
-  border-color: #604b8c;
+  border-color: #5031a9;
 }
 
 .shape[data-emergence="visible"] .shape__inner {
@@ -2220,8 +2230,8 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .social__item-link:hover {
-  color: #604b8c;
-  border-color: #604b8c;
+  color: #5031a9;
+  border-color: #5031a9;
 }
 
 @media (min-width: 768px) {
@@ -2281,7 +2291,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .case__footer {
   padding: 15px;
-  border-bottom: 2px solid #cdbf63;
+  border-bottom: 2px solid #ffc601;
 }
 
 .case__header {
@@ -2379,7 +2389,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .case:hover .case__title {
-  color: #cdbf63;
+  color: #ffc601;
 }
 
 @media (max-width: 1024px) {
@@ -2396,13 +2406,13 @@ input[type="checkbox"]:checked + .control__indicator:before {
     line-height: 75px;
     color: #fff;
     text-align: center;
-    background-color: #604b8c;
+    background-color: #5031a9;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
   }
   .small-carousel .owl-prev:hover, .small-carousel .owl-next:hover {
-    background-color: #cdbf63;
+    background-color: #ffc601;
   }
 }
 
@@ -2455,7 +2465,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
     width: 100%;
     height: 56px;
     padding: 11px 0;
-    background-color: #604b8c;
+    background-color: #5031a9;
     -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, .2), 0px 4px 5px 0px rgba(0, 0, 0, .14), 0px 1px 10px 0px rgba(0, 0, 0, .12);
     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, .2), 0px 4px 5px 0px rgba(0, 0, 0, .14), 0px 1px 10px 0px rgba(0, 0, 0, .12);
 
@@ -2506,7 +2516,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
     height: 100%;
     padding: 0 0 100px 0;
     overflow-y: auto;
-    background-color: #604b8c;
+    background-color: #5031a9;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
@@ -2582,7 +2592,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
     width: 0%;
     height: 2px;
     content: "";
-    background-color: #604b8c;
+    background-color: #5031a9;
   }
   .nav__menu-item a:before {
     left: 0;
@@ -2644,7 +2654,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @media (min-width: 1025px) {
   .nav_scrolled .nav__logo-content-text {
-    color: #604b8c;
+    color: #5031a9;
   }
 }
 
@@ -2697,7 +2707,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
     width: 55px;
     height: 56px;
     content: "";
-    background-color: #3e305a;
+    background-color: #34206e;
     opacity: 0;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -2709,7 +2719,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
     right: 0;
     min-width: 180px;
     padding: 15px;
-    background-color: #604b8c;
+    background-color: #5031a9;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
@@ -2741,7 +2751,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .header {
   color: #fff;
-  background-color: #604b8c;
+  background-color: #5031a9;
 }
 
 @media (min-width: 1025px) {
@@ -2832,7 +2842,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   width: 0%;
   height: 2px;
   content: "";
-  background-color: #604b8c;
+  background-color: #5031a9;
 }
 
 .footer__menu a:before {
@@ -2909,7 +2919,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #604b8c;
+  background-color: #5031a9;
   -webkit-border-radius: 100%;
   border-radius: 100%;
   opacity: .5;
@@ -3120,7 +3130,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .contacts__info-element-link:hover {
-  color: #604b8c;
+  color: #5031a9;
 }
 
 .contacts__info-element-link-icon + .contacts__info-element-link-text {
@@ -3186,12 +3196,6 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .intro__column {
   position: relative;
-}
-
-.intro__container {
-  -webkit-transform: rotate(-1deg);
-  -ms-transform: rotate(-1deg);
-  transform: rotate(-1deg);
 }
 
 .intro__content {
@@ -3351,150 +3355,78 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .intro__title[data-emergence="visible"] {
   position: relative;
-  color: white;
+  color: #fff;
 }
 
 @-webkit-keyframes intro-title-anim-1 {
   0% {
-    clip: rect(230px, 450px, 242px, 0);
+    clip: rect(248px, 450px, 218px, 0);
   }
-  10% {
-    clip: rect(71px, 450px, 29px, 0);
-  }
-  20% {
-    clip: rect(159px, 450px, 98px, 0);
-  }
-  30% {
-    clip: rect(136px, 450px, 219px, 0);
-  }
-  40% {
-    clip: rect(101px, 450px, 10px, 0);
+  25% {
+    clip: rect(116px, 450px, 93px, 0);
   }
   50% {
-    clip: rect(211px, 450px, 169px, 0);
+    clip: rect(239px, 450px, 230px, 0);
   }
-  60% {
-    clip: rect(250px, 450px, 235px, 0);
-  }
-  70% {
-    clip: rect(69px, 450px, 131px, 0);
-  }
-  80% {
-    clip: rect(52px, 450px, 51px, 0);
-  }
-  90% {
-    clip: rect(198px, 450px, 106px, 0);
+  75% {
+    clip: rect(174px, 450px, 152px, 0);
   }
   100% {
-    clip: rect(96px, 450px, 173px, 0);
+    clip: rect(55px, 450px, 225px, 0);
   }
 }
 
 @keyframes intro-title-anim-1 {
   0% {
-    clip: rect(230px, 450px, 242px, 0);
+    clip: rect(248px, 450px, 218px, 0);
   }
-  10% {
-    clip: rect(71px, 450px, 29px, 0);
-  }
-  20% {
-    clip: rect(159px, 450px, 98px, 0);
-  }
-  30% {
-    clip: rect(136px, 450px, 219px, 0);
-  }
-  40% {
-    clip: rect(101px, 450px, 10px, 0);
+  25% {
+    clip: rect(116px, 450px, 93px, 0);
   }
   50% {
-    clip: rect(211px, 450px, 169px, 0);
+    clip: rect(239px, 450px, 230px, 0);
   }
-  60% {
-    clip: rect(250px, 450px, 235px, 0);
-  }
-  70% {
-    clip: rect(69px, 450px, 131px, 0);
-  }
-  80% {
-    clip: rect(52px, 450px, 51px, 0);
-  }
-  90% {
-    clip: rect(198px, 450px, 106px, 0);
+  75% {
+    clip: rect(174px, 450px, 152px, 0);
   }
   100% {
-    clip: rect(96px, 450px, 173px, 0);
+    clip: rect(55px, 450px, 225px, 0);
   }
 }
 
 @-webkit-keyframes intro-title-anim-2 {
   0% {
-    clip: rect(227px, 450px, 64px, 0);
+    clip: rect(128px, 450px, 246px, 0);
   }
-  10% {
-    clip: rect(130px, 450px, 175px, 0);
-  }
-  20% {
-    clip: rect(59px, 450px, 129px, 0);
-  }
-  30% {
-    clip: rect(177px, 450px, 227px, 0);
-  }
-  40% {
-    clip: rect(152px, 450px, 99px, 0);
+  25% {
+    clip: rect(89px, 450px, 153px, 0);
   }
   50% {
-    clip: rect(65px, 450px, 64px, 0);
+    clip: rect(9px, 450px, 66px, 0);
   }
-  60% {
-    clip: rect(235px, 450px, 225px, 0);
-  }
-  70% {
-    clip: rect(210px, 450px, 226px, 0);
-  }
-  80% {
-    clip: rect(31px, 450px, 136px, 0);
-  }
-  90% {
-    clip: rect(184px, 450px, 112px, 0);
+  75% {
+    clip: rect(166px, 450px, 15px, 0);
   }
   100% {
-    clip: rect(12px, 450px, 112px, 0);
+    clip: rect(202px, 450px, 162px, 0);
   }
 }
 
 @keyframes intro-title-anim-2 {
   0% {
-    clip: rect(227px, 450px, 64px, 0);
+    clip: rect(128px, 450px, 246px, 0);
   }
-  10% {
-    clip: rect(130px, 450px, 175px, 0);
-  }
-  20% {
-    clip: rect(59px, 450px, 129px, 0);
-  }
-  30% {
-    clip: rect(177px, 450px, 227px, 0);
-  }
-  40% {
-    clip: rect(152px, 450px, 99px, 0);
+  25% {
+    clip: rect(89px, 450px, 153px, 0);
   }
   50% {
-    clip: rect(65px, 450px, 64px, 0);
+    clip: rect(9px, 450px, 66px, 0);
   }
-  60% {
-    clip: rect(235px, 450px, 225px, 0);
-  }
-  70% {
-    clip: rect(210px, 450px, 226px, 0);
-  }
-  80% {
-    clip: rect(31px, 450px, 136px, 0);
-  }
-  90% {
-    clip: rect(184px, 450px, 112px, 0);
+  75% {
+    clip: rect(166px, 450px, 15px, 0);
   }
   100% {
-    clip: rect(12px, 450px, 112px, 0);
+    clip: rect(202px, 450px, 162px, 0);
   }
 }
 
@@ -3505,18 +3437,18 @@ input[type="checkbox"]:checked + .control__indicator:before {
   width: 100%;
   clip: rect(0, 0, 0, 0);
   content: attr(data-text);
-  background: black;
+  background: #5937bd;
 }
 
 .intro__title[data-emergence="visible"]:after {
   left: 2px;
-  text-shadow: -1px 0 #604b8c;
+  text-shadow: -1px 0 #5031a9;
   animation: intro-title-anim-1 2s infinite linear alternate-reverse;
 }
 
 .intro__title[data-emergence="visible"]:before {
   left: -2px;
-  text-shadow: 2px 0 blue;
+  text-shadow: 2px 0 #ffc601;
   animation: intro-title-anim-2 3s infinite linear alternate-reverse;
 }
 
@@ -3527,25 +3459,8 @@ input[type="checkbox"]:checked + .control__indicator:before {
   padding-top: 120px;
   padding-bottom: 120px;
   margin-bottom: -80px;
-  color: #f7f7f7;
-  background-color: #604b8c;
-  -webkit-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  transform: rotate(5deg);
-}
-
-.intro:before {
-  position: absolute;
-  top: -100px;
-  left: -30%;
-  z-index: -1;
-  width: 120%;
-  height: 100%;
-  content: '';
-  background-color: #49396b;
-  -webkit-transform: rotate(10deg);
-  -ms-transform: rotate(10deg);
-  transform: rotate(10deg);
+  color: #fff;
+  background-color: #5031a9;
 }
 
 @media (min-width: 1025px) {
@@ -3677,7 +3592,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 @supports (display: grid) {
   .services__grid {
     display: grid;
-    background-color: rgba(96, 75, 140, .2);
+    background-color: rgba(80, 49, 169, .2);
 
     grid-gap: 1px;
   }
@@ -3745,7 +3660,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   -o-transition: all .5s ease;
   transition: all .5s ease;
 
-  fill: #604b8c;
+  fill: #5031a9;
   stroke-dasharray: 50;
   stroke-dashoffset: 50;
 }
@@ -3764,11 +3679,11 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .services__item:hover .services__item-header svg path, .services__item:hover .services__item-header svg rect {
-  fill: #cdbf63;
+  fill: #ffc601;
 }
 
 .services__item:hover .services__item-title {
-  color: #cdbf63;
+  color: #ffc601;
 }
 
 .services {
@@ -3830,7 +3745,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #604b8c;
+  background-color: #5031a9;
   -webkit-transition: all ease 1s;
   -o-transition: all ease 1s;
   transition: all ease 1s;
@@ -3894,7 +3809,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   width: 120%;
   height: 100%;
   content: "";
-  background-color: #f8f8f8;
+  background-color: #ebebeb;
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
@@ -3931,7 +3846,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   height: 60px;
   font-size: 40px;
   line-height: 60px;
-  color: #604b8c;
+  color: #5031a9;
   text-align: center;
   background-color: #f8f8f8;
   -webkit-transition: all .5s ease;
@@ -3940,7 +3855,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .testimonial__content .owl-next:hover, .testimonial__content .owl-prev:hover {
-  background-color: #d9cf8a;
+  background-color: #ffd134;
 }
 
 .testimonial__content .owl-prev {
@@ -4094,7 +4009,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   width: 120%;
   height: 65%;
   content: '';
-  background-color: #604b8c;
+  background-color: #5031a9;
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
@@ -4258,7 +4173,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .modal__close:hover {
-  color: #604b8c;
+  color: #5031a9;
 }
 
 .modal__header {
@@ -4303,7 +4218,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 }
 
 .modal__link:hover {
-  color: #604b8c;
+  color: #5031a9;
 }
 
 .modal__skills {
@@ -4316,7 +4231,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   font-size: 15px;
   font-weight: bold;
   color: #bdbdbd;
-  border-bottom: 1px solid #604b8c;
+  border-bottom: 1px solid #5031a9;
 }
 
 .modal__subtitle {
@@ -4346,7 +4261,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
-  background-color: #604b8c;
+  background-color: #5031a9;
 }
 
 @media (min-width: 480px) {

@@ -233,9 +233,9 @@
 		+b('btn')
 			margin-right: 5px
 			margin-bottom: 5px
-	&_size
-		&-lg
-			+btn-size($btn-large-padding, $btn-large-size)
 
-			+min(sm)
-				+btn-size($btn-large-sm-padding, $btn-large-sm-size)
+	+m('lg')
+		+min(sm)
+			+btn-size($btn-large-sm-padding, $btn-large-sm-size)
+	
+	+btn-static-iteration()
