@@ -9,7 +9,7 @@
 		<div class="skills__row row">
 			<div class="col-12 col-sm-7">
 				<div class="group">
-					<h3 class="group__title" data-emergence="hidden" data-text="Here you can see">Here you can see <span class="group__title-element">my skills</span>
+					<h3 class="group__title" data-emergence="hidden" data-text="My skills">My<span class="color-brand-1"> skills</span>
 					</h3>
 				</div>
 			</div>

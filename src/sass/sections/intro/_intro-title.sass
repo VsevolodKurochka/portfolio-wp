@@ -2,6 +2,7 @@ $intro-title: ('default': 40px, 'sm': 50px, 'md': 60px, 'lg': 75px)
 
 +b('intro')
 	+e('title')
+		+relative()
 		+font('secondary')
 		margin-bottom: 30px
 		line-height: 1.1
@@ -10,6 +11,12 @@ $intro-title: ('default': 40px, 'sm': 50px, 'md': 60px, 'lg': 75px)
 		text-transform: uppercase
 		+fs-simple($intro-title)
 		color: $color-brand-3
+	
+		// &:before
+		// 	content: ''
+		// 	+absolute(0, null, null, 0)
+		// 	+size(100%)
+		// 	+bg('../img/title-pattern.png.')
 
 		&[data-emergence="visible"]
 			// 1. Namespace

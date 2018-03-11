@@ -5,12 +5,12 @@
 			</div>
 		</div>
 	</div> -->
-	<div class="intro__shape intro__shape_right shape shape_transparent" data-emergence="hidden">
+	<!-- <div class="intro__shape intro__shape_right shape shape_transparent" data-emergence="hidden">
 		<div class="shape__inner">
 			<div class="shape__inner-shape shape__inner-shape_white">
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="intro__container container">
 		<!-- <div class="intro__shape intro__shape_main shape" data-emergence="hidden">
 			<div class="shape__inner">
@@ -26,11 +26,10 @@
 					<li>Freelancer</li>
 					<li>4 years experience</li>
 				</ul>
-				<p class="intro__content">Looking for a web developer? I am a freelancer from Cherkassy, Ukraine. With the help of <span class="highlight highlight_brand-2">magic </span>, I will create a modern site for your business.
-				</p>
+				<p class="intro__content">Create a modern website for your business.</p>
 				<div class="intro__button">
 					<button class="btn btn_brand-3 btn_lg effect effect_bounce-top"><span class="fl"></span><span class="sfl"></span><span class="cross"></span><i></i>
-						<p>My resume</p>
+						<p></p>
 					</button>
 					<!-- <button class="btn btn_cross btn_cross-white btn_size-lg"><span class="fl"></span><span class="sfl"></span><span class="cross"></span><i></i>
 						<p>My resume</p>
