@@ -1,10 +1,10 @@
 <section class="intro" id="section-intro">
-	<div class="intro__shape intro__shape_left shape shape_transparent" data-emergence="hidden">
+	<!-- <div class="intro__shape intro__shape_left shape shape_transparent" data-emergence="hidden">
 		<div class="shape__inner">
 			<div class="shape__inner-shape shape__inner-shape_white">
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="intro__shape intro__shape_right shape shape_transparent" data-emergence="hidden">
 		<div class="shape__inner">
 			<div class="shape__inner-shape shape__inner-shape_white">

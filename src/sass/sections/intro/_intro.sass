@@ -1,19 +1,18 @@
 +b('intro')
-	+relative(-80px)
+	+relative()
 	+padding-y(120px)
 	margin-bottom: -80px
 	z-index: 1
 	color: $color-white
-	background-color: $color-brand-1
+	//background-color: $color-brand-1
 	//transform: rotate(5deg)
 
-	// &:before
-	// 	content: ''
-	// 	+absolute(-100px, null, null, -30%)
-	// 	+size(120%, 100%)
-	// 	border: 20px solid darken($color-brand-1, 10%)
-	// 	transform: rotate(10deg)
-	// 	z-index: -1
+	&:before
+		content: ''
+		+absolute(0, 0)
+		+size(80%, 100%)
+		background-color: $color-brand-1
+		z-index: -1
 		
 	+min(md)
 		+padding-y(250px, 200px)
