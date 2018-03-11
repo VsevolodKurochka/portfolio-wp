@@ -18,7 +18,7 @@
 			</div>
 		</div>
 		<div class="intro__row row">
-			<div class="intro__column col-12 col-sm-6 col-lg-5">
+			<div class="intro__column col-12 col-sm-10 col-md-8">
 				<p class="intro__content">Create a modern website for your business.</p>
 				<h1 class="intro__title" data-emergence="hidden" data-text="Vsevolod Kurochka">Vsevolod Kurochka</h1>
 				<!-- <ul class="intro__list">

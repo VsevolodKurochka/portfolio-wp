@@ -32,18 +32,16 @@
 						</p>
 					</div>
 					<div class="message__body">
-						<form class="form form_block">
+						<form class="form form_block" method="POST" action="#">
 							<div class="form__content">
-								<div class="form__row form__row_line"><input class="form__control" name="vname" type="text" placeholder="Name"/><span class="form__line"></span>
+								<div class="form__row form__row_line"><input class="form__control" name="name" type="text" placeholder="Name"/><span class="form__line"></span>
 								</div>
-								<div class="form__row form__row_line"><input class="form__control" name="vemail" type="email" placeholder="E-mail"/><span class="form__line"></span>
+								<div class="form__row form__row_line"><input class="form__control" name="email" type="email" placeholder="E-mail"/><span class="form__line"></span>
 								</div>
-								<div class="form__row form__row_line"><input class="form__control" name="vphone" type="phone" placeholder="Phone"/><span class="form__line"></span>
+								<div class="form__row form__row_line"><input class="form__control" name="phone" type="tel" placeholder="Phone"/><span class="form__line"></span>
 								</div>
 								<div class="form__row">
-									<button class="btn btn_cross btn_cross-brand-1 btn_size-lg" type="submit"><span class="fl"></span><span class="sfl"></span><span class="cross"></span><i></i>
-										<p>Send</p>
-									</button>
+									<button class="btn btn_brand-3 effect effect_bounce-bottom" type="submit">Let's talk</button>
 								</div>
 							</div>
 						</form>
@@ -51,7 +49,6 @@
 				</div>
 			</div>
 		</div>
-		<p class="contacts__letters-bg letters-bg" data-emergence="hidden">Contact
-		</p>
+		<!-- <p class="contacts__letters-bg letters-bg" data-emergence="hidden">Contact</p> -->
 	</div>
 </section>

@@ -22,8 +22,7 @@
 					<h3 class="group__title" data-emergence="hidden" data-text="Customer Testimonials">Customer <span class="color-brand-1">Testimonials</span>
 					</h3>
 					<div class="group__content">
-						<p>Customers are always happy. They know that <span class="highlight highlight_brand-3">Vsevolod Kurochka</span> is the key to success and quality.
-						</p>
+						<p>Customers are always happy with <span class="highlight highlight_brand-3">me</span></p>
 					</div>
 				</div>
 			</div>

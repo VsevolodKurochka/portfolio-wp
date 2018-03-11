@@ -27,19 +27,21 @@
 	];
 ?>
 <section class="services" id="section-services">
-	<div class="container services__container">
-		<div class="group group_center services__group">
-			<h3 class="group__title" data-emergence="hidden" data-text="My Services">My <span>Services</span></h3>
-		</div>
-		<div class="services__grid">
-			<?php foreach ($items as $item) : ?>
-				<div class="services__item" data-emergence="hidden">
-					<div class="services__item-header">
-						<?php get_template_part($item['icon']); ?>
+	<div class="container">
+		<div class="services__content">
+			<div class="group group_center services__group">
+				<h3 class="group__title" data-emergence="hidden" data-text="My Services">My <span>Services</span></h3>
+			</div>
+			<div class="services__grid">
+				<?php foreach ($items as $item) : ?>
+					<div class="services__item" data-emergence="hidden">
+						<div class="services__item-header">
+							<?php get_template_part($item['icon']); ?>
+						</div>
+						<p class="services__item-title"><?php echo $item['title']; ?></p>
 					</div>
-					<p class="services__item-title"><?php echo $item['title']; ?></p>
-				</div>
-			<?php endforeach; ?>
+				<?php endforeach; ?>
+			</div>
 		</div>
 	</div>
 </section>

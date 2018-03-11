@@ -1,21 +1,29 @@
 +b('intro')
 	+relative()
-	+padding-y(120px)
+	+padding-y(60px, 100px)
 	color: $color-white
 	//background-color: $color-brand-1
-	//transform: rotate(5deg)
+	transform: rotate(5deg)
+	background-color: $color-brand-1
+	width: 110%
+	left: -45px
 
-	&:before
-		content: ''
-		+absolute(0, 0)
-		+size(100%, 100%)
-		background-color: $color-brand-1
-		z-index: -1
+	// &:before
+	// 	content: ''
+	// 	+absolute(-5%, -5%)
+	// 	+size(110%, 100%)
+	// 	background-color: $color-brand-1
+	// 	z-index: -1
 		//transform: rotate(5deg)
-
-		// +min(md)
-		// 	right: -10%
-		// 	width: 70%
+	
+	&:after
+		content: ''
+		+absolute(0, null, null, 0)
+		+size(100%)
+		+bg('../img/title-pattern.png', 0 0, repeat)
+		background-attachment: fixed
+		z-index: -1
+		opacity: 0.07
 		
 	+min(md)
-		+padding-y(150px, 200px)
+		+padding-y(150px, 250px)

@@ -11,13 +11,11 @@
 ?>
 <section class="blog section-anchor" id="section-blog">
 	<div class="container">
-		<div class="blog__header row">
-			<div class="col-12 col-sm-10">
-				<div class="group group_inline">
-					<h3 class="group__title" data-emergence="hidden" data-text="Blog">Blog</h3>
-					<div class="group__content">
-						<p>I'll tell you a little secrets that I use when developing sites.</p>
-					</div>
+		<div class="blog__header">
+			<div class="group group_center">
+				<h3 class="group__title" data-emergence="hidden" data-text="Blog">Blog</h3>
+				<div class="group__content">
+					<p>I'll tell you a little secrets that I use when developing sites.</p>
 				</div>
 			</div>
 		</div>
