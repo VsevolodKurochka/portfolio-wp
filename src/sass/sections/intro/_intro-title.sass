@@ -1,4 +1,5 @@
-$intro-title: ('default': 40px, 'sm': 70px, 'md': 80px, 'lg': 160px)
+$intro-title: ('default': 40px, 'sm': 70px, 'md': 80px, 'lg': 90px)
+$intro-title-large: ('default': 40px, 'sm': 70px, 'md': 80px, 'lg': 160px)
 
 +b('intro')
 	+e('title')
@@ -8,8 +9,13 @@ $intro-title: ('default': 40px, 'sm': 70px, 'md': 80px, 'lg': 160px)
 		line-height: 1.1
 		font-weight: 700
 		letter-spacing: 10px
-		+fs-simple($intro-title)
 		color: $color-white
+		
+		&_small
+			+fs-simple($intro-title)
+
+		&_large
+			+fs-simple($intro-title-large)
 	
 		// &:before
 		// 	content: ''

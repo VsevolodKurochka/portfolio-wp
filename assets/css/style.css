@@ -1771,73 +1771,73 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @-webkit-keyframes group-title-anim-1 {
   0% {
-    clip: rect(86px, 600px, 144px, 0);
+    clip: rect(158px, 600px, 132px, 0);
   }
   25% {
-    clip: rect(103px, 600px, 52px, 0);
+    clip: rect(22px, 600px, 99px, 0);
   }
   50% {
-    clip: rect(14px, 600px, 6px, 0);
+    clip: rect(58px, 600px, 63px, 0);
   }
   75% {
-    clip: rect(123px, 600px, 173px, 0);
+    clip: rect(15px, 600px, 4px, 0);
   }
   100% {
-    clip: rect(58px, 600px, 10px, 0);
+    clip: rect(12px, 600px, 54px, 0);
   }
 }
 
 @keyframes group-title-anim-1 {
   0% {
-    clip: rect(86px, 600px, 144px, 0);
+    clip: rect(158px, 600px, 132px, 0);
   }
   25% {
-    clip: rect(103px, 600px, 52px, 0);
+    clip: rect(22px, 600px, 99px, 0);
   }
   50% {
-    clip: rect(14px, 600px, 6px, 0);
+    clip: rect(58px, 600px, 63px, 0);
   }
   75% {
-    clip: rect(123px, 600px, 173px, 0);
+    clip: rect(15px, 600px, 4px, 0);
   }
   100% {
-    clip: rect(58px, 600px, 10px, 0);
+    clip: rect(12px, 600px, 54px, 0);
   }
 }
 
 @-webkit-keyframes group-title-anim-2 {
   0% {
-    clip: rect(44px, 600px, 97px, 0);
+    clip: rect(37px, 600px, 124px, 0);
   }
   25% {
-    clip: rect(85px, 600px, 1px, 0);
+    clip: rect(81px, 600px, 102px, 0);
   }
   50% {
-    clip: rect(45px, 600px, 11px, 0);
+    clip: rect(6px, 600px, 156px, 0);
   }
   75% {
-    clip: rect(46px, 600px, 7px, 0);
+    clip: rect(12px, 600px, 88px, 0);
   }
   100% {
-    clip: rect(44px, 600px, 10px, 0);
+    clip: rect(71px, 600px, 183px, 0);
   }
 }
 
 @keyframes group-title-anim-2 {
   0% {
-    clip: rect(44px, 600px, 97px, 0);
+    clip: rect(37px, 600px, 124px, 0);
   }
   25% {
-    clip: rect(85px, 600px, 1px, 0);
+    clip: rect(81px, 600px, 102px, 0);
   }
   50% {
-    clip: rect(45px, 600px, 11px, 0);
+    clip: rect(6px, 600px, 156px, 0);
   }
   75% {
-    clip: rect(46px, 600px, 7px, 0);
+    clip: rect(12px, 600px, 88px, 0);
   }
   100% {
-    clip: rect(44px, 600px, 10px, 0);
+    clip: rect(71px, 600px, 183px, 0);
   }
 }
 
@@ -3159,6 +3159,9 @@ input[type="checkbox"]:checked + .control__indicator:before {
 .intro__container {
   position: relative;
   z-index: 1;
+}
+
+.intro_rotate .intro__container {
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
@@ -3327,27 +3330,52 @@ input[type="checkbox"]:checked + .control__indicator:before {
   position: relative;
   margin-bottom: 30px;
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
   font-weight: 700;
   line-height: 1.1;
   color: #fff;
   letter-spacing: 10px;
 }
 
+.intro__title_small {
+  font-size: 40px;
+}
+
 @media (min-width: 768px) {
-  .intro__title {
+  .intro__title_small {
     font-size: 70px;
   }
 }
 
 @media (min-width: 1025px) {
-  .intro__title {
+  .intro__title_small {
     font-size: 80px;
   }
 }
 
 @media (min-width: 1200px) {
-  .intro__title {
+  .intro__title_small {
+    font-size: 90px;
+  }
+}
+
+.intro__title_large {
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .intro__title_large {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .intro__title_large {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro__title_large {
     font-size: 160px;
   }
 }
@@ -3359,73 +3387,73 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @-webkit-keyframes intro-title-anim-1 {
   0% {
-    clip: rect(22px, 450px, 140px, 0);
+    clip: rect(116px, 450px, 108px, 0);
   }
   25% {
-    clip: rect(94px, 450px, 44px, 0);
+    clip: rect(7px, 450px, 111px, 0);
   }
   50% {
-    clip: rect(145px, 450px, 58px, 0);
+    clip: rect(77px, 450px, 24px, 0);
   }
   75% {
-    clip: rect(7px, 450px, 129px, 0);
+    clip: rect(13px, 450px, 14px, 0);
   }
   100% {
-    clip: rect(18px, 450px, 131px, 0);
+    clip: rect(146px, 450px, 41px, 0);
   }
 }
 
 @keyframes intro-title-anim-1 {
   0% {
-    clip: rect(22px, 450px, 140px, 0);
+    clip: rect(116px, 450px, 108px, 0);
   }
   25% {
-    clip: rect(94px, 450px, 44px, 0);
+    clip: rect(7px, 450px, 111px, 0);
   }
   50% {
-    clip: rect(145px, 450px, 58px, 0);
+    clip: rect(77px, 450px, 24px, 0);
   }
   75% {
-    clip: rect(7px, 450px, 129px, 0);
+    clip: rect(13px, 450px, 14px, 0);
   }
   100% {
-    clip: rect(18px, 450px, 131px, 0);
+    clip: rect(146px, 450px, 41px, 0);
   }
 }
 
 @-webkit-keyframes intro-title-anim-2 {
   0% {
-    clip: rect(143px, 450px, 77px, 0);
+    clip: rect(72px, 450px, 99px, 0);
   }
   25% {
-    clip: rect(115px, 450px, 48px, 0);
+    clip: rect(93px, 450px, 69px, 0);
   }
   50% {
-    clip: rect(35px, 450px, 119px, 0);
+    clip: rect(150px, 450px, 76px, 0);
   }
   75% {
-    clip: rect(139px, 450px, 19px, 0);
+    clip: rect(40px, 450px, 122px, 0);
   }
   100% {
-    clip: rect(56px, 450px, 17px, 0);
+    clip: rect(72px, 450px, 84px, 0);
   }
 }
 
 @keyframes intro-title-anim-2 {
   0% {
-    clip: rect(143px, 450px, 77px, 0);
+    clip: rect(72px, 450px, 99px, 0);
   }
   25% {
-    clip: rect(115px, 450px, 48px, 0);
+    clip: rect(93px, 450px, 69px, 0);
   }
   50% {
-    clip: rect(35px, 450px, 119px, 0);
+    clip: rect(150px, 450px, 76px, 0);
   }
   75% {
-    clip: rect(139px, 450px, 19px, 0);
+    clip: rect(40px, 450px, 122px, 0);
   }
   100% {
-    clip: rect(56px, 450px, 17px, 0);
+    clip: rect(72px, 450px, 84px, 0);
   }
 }
 
@@ -3453,12 +3481,17 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .intro {
   position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+  background-color: #5031a9;
+}
+
+.intro_rotate {
   left: -45px;
   width: 110%;
   padding-top: 60px;
   padding-bottom: 100px;
-  color: #fff;
-  background-color: #5031a9;
   -webkit-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
@@ -3481,6 +3514,10 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @media (min-width: 1025px) {
   .intro {
+    padding-top: 130px;
+    padding-bottom: 100px;
+  }
+  .intro_rotate {
     padding-top: 150px;
     padding-bottom: 250px;
   }

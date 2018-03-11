@@ -109,15 +109,9 @@ function project($type = null, $i = null, $value = null) {
 <?php function custom_header(){ ?>
 	<section class="intro" id="section-intro">
 		<div class="intro__container container">
-			<div class="intro__shape intro__shape_custom shape" data-emergence="hidden">
-				<div class="shape__inner">
-					<div class="shape__inner-shape shape__inner-shape_brand-1">
-					</div>
-				</div>
-			</div>
 			<div class="intro__row row">
 				<div class="intro__column col-12 col-sm-6 col-lg-5">
-					<h1 class="intro__title" data-emergence="hidden">
+					<h1 class="intro__title intro__title_small" data-emergence="hidden">
 						<?php
 							if( is_post_type_archive() ) :
 								post_type_archive_title();

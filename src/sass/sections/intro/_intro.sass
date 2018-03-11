@@ -1,20 +1,14 @@
 +b('intro')
 	+relative()
-	+padding-y(60px, 100px)
 	color: $color-white
-	//background-color: $color-brand-1
-	transform: rotate(5deg)
 	background-color: $color-brand-1
-	width: 110%
-	left: -45px
+	+padding-y(60px)
 
-	// &:before
-	// 	content: ''
-	// 	+absolute(-5%, -5%)
-	// 	+size(110%, 100%)
-	// 	background-color: $color-brand-1
-	// 	z-index: -1
-		//transform: rotate(5deg)
+	+m('rotate')
+		+padding-y(60px, 100px)
+		width: 110%
+		left: -45px
+		transform: rotate(5deg)
 	
 	&:after
 		content: ''
@@ -26,4 +20,6 @@
 		opacity: 0.07
 		
 	+min(md)
-		+padding-y(150px, 250px)
+		+padding-y(130px, 100px)
+		+m('rotate')
+			+padding-y(150px, 250px)
