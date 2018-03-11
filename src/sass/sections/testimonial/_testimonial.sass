@@ -4,14 +4,14 @@
 
 	&:before
 		content: ''
-		+absolute(35%, null, null, -80%)
+		+absolute(0, null, null, -80%)
 		+size(120%, 65%)
-		background-color: $color-brand-1
+		background-color: transparentize($color-brand-1, 0.9)
 		transform: rotate(-5deg)
 		z-index: -1
 		+min(sm)
-			top: -100px
-			height: 100%
+			top: 0
+			height: 80%
 
 	+min(sm)
 		+padding-y(75px)
