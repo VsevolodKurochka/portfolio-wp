@@ -27,10 +27,9 @@
 	];
 ?>
 <section class="services" id="section-services">
-	<div class="container">
-		<div class="group group_inline">
-			<h3 class="group__title" data-emergence="hidden" data-text="My Services">My<br><span>Services</span>
-			</h3>
+	<div class="container services__container">
+		<div class="group group_center services__group">
+			<h3 class="group__title" data-emergence="hidden" data-text="My Services">My <span>Services</span></h3>
 		</div>
 		<div class="services__grid">
 			<?php foreach ($items as $item) : ?>
