@@ -20,7 +20,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="blog__grid owl-carousel js-small-carousel" id="blog-grid">
+	<div class="blog__grid owl-carousel small-carousel" id="blog-grid">
 		<?php
 			$i = 0;
 			while($blog->have_posts()) :
