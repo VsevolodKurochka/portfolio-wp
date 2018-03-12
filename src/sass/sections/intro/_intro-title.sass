@@ -1,14 +1,13 @@
 $intro-title: ('default': 40px, 'sm': 70px, 'md': 80px, 'lg': 90px)
-$intro-title-large: ('default': 40px, 'sm': 70px, 'md': 80px, 'lg': 160px)
+$intro-title-large: ('default': 40px, 'sm': 60px, 'md': 70px, 'lg': 80px)
 
 +b('intro')
 	+e('title')
 		+relative()
-		+font('secondary')
+		
 		margin-bottom: 30px
 		line-height: 1.1
 		font-weight: 700
-		letter-spacing: 10px
 		color: $color-white
 		
 		&_small
@@ -32,4 +31,7 @@ $intro-title-large: ('default': 40px, 'sm': 70px, 'md': 80px, 'lg': 160px)
 			// 6. Highlight #2 color
 			// 7. Width (px)
 			// 8. Height (px)
-			+textGlitch("intro-title", 4, $color-white, lighten($color-brand-1, 5%), $color-brand-2, $color-black, 450, 150)
+			+textGlitch("intro-title", 4, $color-white, darken($color-brand-1, 5%), $color-brand-2, $color-black, 450, 150)
+
+			+min(md)
+				+textGlitch("intro-title", 4, $color-white, darken($color-brand-1, 5%), $color-brand-2, $color-black, 900, 400)

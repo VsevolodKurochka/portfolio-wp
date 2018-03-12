@@ -5,6 +5,9 @@
 				<div class="col-4 nav__logo">
 					<button class="hamburger hamburger_effect-2" type="button" id="js-nav-hamburger"><span class="hamburger__lines"><span></span><span></span><span></span><span></span></span>
 					</button>
+					<!-- <div class="nav__logo-content">
+						<a class="nav__logo-content-text" href="<?php //echo site_url(); ?>" target="_blank">Vsevolod Kurochka</a>
+					</div> -->
 				</div>
 				<nav class="col-md-8 nav__menu" id="js-navigation-menu">
 					<ul>
