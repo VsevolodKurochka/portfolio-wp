@@ -9,7 +9,7 @@
 
 		padding: 30px
 
-		transform: rotate(1deg)
+		//transform: rotate(1deg)
 
 		box-shadow: 0px 1px 25px #ddd
 
@@ -18,22 +18,8 @@
 		&:hover
 			top: -2px
 
-		@at-root
-			%services-item-special
-				z-index: 1
-				box-shadow: 0px 1px 25px #ddd
-
-		&:nth-child(2)
-			transform: rotate(6deg)
-			@extend %services-item-special
-
-		&:nth-child(4)
-			transform: rotate(6deg)
-			@extend %services-item-special
-
-		&:nth-child(6)
-			transform: rotate(-6deg)
-			@extend %services-item-special
+		+min(sm)
+			flex-basis: 50%
 
 		+ee('header')
 
@@ -41,7 +27,7 @@
 
 			svg
 
-				height: 100px
+				height: 60px
 
 			path, rect
 
@@ -53,7 +39,6 @@
 				stroke-dashoffset: 50
 
 		+ee('title')
-			text-transform: uppercase
 			font-weight: bold
 
 			+font("secondary")

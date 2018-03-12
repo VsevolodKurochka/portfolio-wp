@@ -16,25 +16,26 @@
 			<div class="col-12 col-sm-4">
 				<ul class="skills__items">
 					<li class="skills__item" data-emergence="hidden">
-						<p class="skills__item-header">Wordpress
-						</p>
-						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:85%;"></span>
-						</div>
-					</li>
-					<li class="skills__item" data-emergence="hidden">
-						<p class="skills__item-header">CSS/CSS3
-						</p>
-						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:90%;"></span>
-						</div>
-					</li>
-					<li class="skills__item" data-emergence="hidden">
-						<p class="skills__item-header">HTML/HTML5
+						<p class="skills__item-header">HTML / HTML5
 						</p>
 						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:95%;"></span>
 						</div>
 					</li>
 					<li class="skills__item" data-emergence="hidden">
-						<p class="skills__item-header">JS/JQUERY
+						<p class="skills__item-header">CSS / CSS3
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:90%;"></span>
+						</div>
+					</li>
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">Wordpress
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:85%;"></span>
+						</div>
+					</li>
+					
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">JS (ES6) / JQUERY
 						</p>
 						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:84%;"></span>
 						</div>
@@ -43,6 +44,20 @@
 						<p class="skills__item-header">PHP
 						</p>
 						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:60%;"></span>
+						</div>
+					</li>
+
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">Adobe Photoshop
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:70%;"></span>
+						</div>
+					</li>
+
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">Adobe Illustrator
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:45%;"></span>
 						</div>
 					</li>
 				</ul>

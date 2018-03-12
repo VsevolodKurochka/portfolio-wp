@@ -28,20 +28,78 @@
 ?>
 <section class="services" id="section-services">
 	<div class="container">
-		<div class="services__content">
-			<div class="group group_center services__group">
-				<h3 class="group__title" data-emergence="hidden" data-text="My Services">My <span>Services</span></h3>
-			</div>
-			<div class="services__grid">
-				<?php foreach ($items as $item) : ?>
-					<div class="services__item" data-emergence="hidden">
-						<div class="services__item-header">
-							<?php get_template_part($item['icon']); ?>
+		<div class="row">
+			<div class="col-12 col-md-6">
+				<div class="group services__group">
+					<h3 class="group__title" data-emergence="hidden" data-text="Services">Services</h3>
+				</div>
+				<div class="flex">
+					<?php foreach ($items as $item) : ?>
+						<div class="services__item" data-emergence="hidden">
+							<div class="services__item-header">
+								<?php get_template_part($item['icon']); ?>
+							</div>
+							<p class="services__item-title"><?php echo $item['title']; ?></p>
 						</div>
-						<p class="services__item-title"><?php echo $item['title']; ?></p>
-					</div>
-				<?php endforeach; ?>
+					<?php endforeach; ?>
+				</div>
 			</div>
+			<div class="col-12 col-md-6">
+				<div class="group">
+					<h3 class="group__title" data-emergence="hidden" data-text="Skills">Skills</h3>
+				</div>
+				<ul class="skills__items">
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">HTML / HTML5
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:95%;"></span>
+						</div>
+					</li>
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">CSS / CSS3
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:90%;"></span>
+						</div>
+					</li>
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">Wordpress
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:85%;"></span>
+						</div>
+					</li>
+					
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">JS (ES6) / JQUERY
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:84%;"></span>
+						</div>
+					</li>
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">PHP
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:60%;"></span>
+						</div>
+					</li>
+
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">Adobe Photoshop
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:70%;"></span>
+						</div>
+					</li>
+
+					<li class="skills__item" data-emergence="hidden">
+						<p class="skills__item-header">Adobe Illustrator
+						</p>
+						<div class="skills__item-line"><span class="skills__item-line-slider" style="width:45%;"></span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="services__grid">
+			
 		</div>
 	</div>
 </section>
