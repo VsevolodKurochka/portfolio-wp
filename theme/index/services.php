@@ -29,7 +29,7 @@
 <section class="services" id="section-services">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-6">
+			<div class="services__column col-12 col-md-6">
 				<div class="group services__group">
 					<h3 class="group__title" data-emergence="hidden" data-text="Services">Services</h3>
 				</div>
@@ -44,7 +44,7 @@
 					<?php endforeach; ?>
 				</div>
 			</div>
-			<div class="col-12 col-md-6">
+			<div class="services__column col-12 col-md-6">
 				<div class="group">
 					<h3 class="group__title" data-emergence="hidden" data-text="Skills">Skills</h3>
 				</div>
