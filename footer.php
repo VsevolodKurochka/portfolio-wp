@@ -17,11 +17,9 @@
 		<div class="footer__container container">
 			<div class="footer__row row">
 				<div class="col-12 col-sm-8">
-					<ul class="footer__menu">
-						<li><a href="#section-skills">My skills</a></li>
-						<li><a href="#section-portfolio">Portfolio</a></li>
-						<li><a href="#section-testimonial">Testimonial</a></li>
-					</ul>
+					<div class="footer__menu">
+						<?php get_template_part('theme/components/menu'); ?>
+					</div>
 				</div>
 				<div class="col-12 col-sm-4">
 					<?php social('footer__social'); ?>
