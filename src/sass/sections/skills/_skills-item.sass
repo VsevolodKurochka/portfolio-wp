@@ -7,10 +7,10 @@
 			margin-bottom: 30px
 
 		+ee('header')
-			+font('secondary')
 			text-transform: uppercase
 			margin-bottom: 5px
 			font-weight: bold
+			font-size: 14px
 
 		+ee('line')
 			+relative
@@ -22,7 +22,7 @@
 			+ee('slider')
 				+absolute(0,null,null,0)
 				height: 100%
-				background-color: $color-brand-1
+				background-color: lighten($color-brand-1, 15%)
 				transform: translateX(-100%)
 				transition: all ease 1s
 		&[data-emergence="visible"]

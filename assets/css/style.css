@@ -991,12 +991,10 @@ b,
   padding: 10px 16px;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-size: 14px;
   font-weight: bold;
   line-height: 1.4;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
   border: none;
   -webkit-border-radius: 0;
   border-radius: 0;
@@ -1785,73 +1783,73 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @-webkit-keyframes group-title-anim-1 {
   0% {
-    clip: rect(95px, 600px, 190px, 0);
+    clip: rect(71px, 600px, 143px, 0);
   }
   25% {
-    clip: rect(60px, 600px, 85px, 0);
+    clip: rect(102px, 600px, 68px, 0);
   }
   50% {
-    clip: rect(52px, 600px, 96px, 0);
+    clip: rect(181px, 600px, 121px, 0);
   }
   75% {
-    clip: rect(121px, 600px, 29px, 0);
+    clip: rect(181px, 600px, 191px, 0);
   }
   100% {
-    clip: rect(84px, 600px, 42px, 0);
+    clip: rect(167px, 600px, 177px, 0);
   }
 }
 
 @keyframes group-title-anim-1 {
   0% {
-    clip: rect(95px, 600px, 190px, 0);
+    clip: rect(71px, 600px, 143px, 0);
   }
   25% {
-    clip: rect(60px, 600px, 85px, 0);
+    clip: rect(102px, 600px, 68px, 0);
   }
   50% {
-    clip: rect(52px, 600px, 96px, 0);
+    clip: rect(181px, 600px, 121px, 0);
   }
   75% {
-    clip: rect(121px, 600px, 29px, 0);
+    clip: rect(181px, 600px, 191px, 0);
   }
   100% {
-    clip: rect(84px, 600px, 42px, 0);
+    clip: rect(167px, 600px, 177px, 0);
   }
 }
 
 @-webkit-keyframes group-title-anim-2 {
   0% {
-    clip: rect(77px, 600px, 24px, 0);
+    clip: rect(35px, 600px, 167px, 0);
   }
   25% {
-    clip: rect(25px, 600px, 76px, 0);
+    clip: rect(57px, 600px, 31px, 0);
   }
   50% {
-    clip: rect(77px, 600px, 59px, 0);
+    clip: rect(110px, 600px, 36px, 0);
   }
   75% {
-    clip: rect(7px, 600px, 126px, 0);
+    clip: rect(31px, 600px, 102px, 0);
   }
   100% {
-    clip: rect(174px, 600px, 78px, 0);
+    clip: rect(106px, 600px, 2px, 0);
   }
 }
 
 @keyframes group-title-anim-2 {
   0% {
-    clip: rect(77px, 600px, 24px, 0);
+    clip: rect(35px, 600px, 167px, 0);
   }
   25% {
-    clip: rect(25px, 600px, 76px, 0);
+    clip: rect(57px, 600px, 31px, 0);
   }
   50% {
-    clip: rect(77px, 600px, 59px, 0);
+    clip: rect(110px, 600px, 36px, 0);
   }
   75% {
-    clip: rect(7px, 600px, 126px, 0);
+    clip: rect(31px, 600px, 102px, 0);
   }
   100% {
-    clip: rect(174px, 600px, 78px, 0);
+    clip: rect(106px, 600px, 2px, 0);
   }
 }
 
@@ -2267,7 +2265,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @media (min-width: 1025px) {
   .case__body-content {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -3395,73 +3393,73 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 @-webkit-keyframes intro-title-anim-1 {
   0% {
-    clip: rect(56px, 450px, 146px, 0);
+    clip: rect(150px, 450px, 41px, 0);
   }
   25% {
-    clip: rect(110px, 450px, 125px, 0);
+    clip: rect(122px, 450px, 12px, 0);
   }
   50% {
-    clip: rect(127px, 450px, 90px, 0);
+    clip: rect(78px, 450px, 132px, 0);
   }
   75% {
-    clip: rect(72px, 450px, 16px, 0);
+    clip: rect(92px, 450px, 76px, 0);
   }
   100% {
-    clip: rect(36px, 450px, 112px, 0);
+    clip: rect(29px, 450px, 74px, 0);
   }
 }
 
 @keyframes intro-title-anim-1 {
   0% {
-    clip: rect(56px, 450px, 146px, 0);
+    clip: rect(150px, 450px, 41px, 0);
   }
   25% {
-    clip: rect(110px, 450px, 125px, 0);
+    clip: rect(122px, 450px, 12px, 0);
   }
   50% {
-    clip: rect(127px, 450px, 90px, 0);
+    clip: rect(78px, 450px, 132px, 0);
   }
   75% {
-    clip: rect(72px, 450px, 16px, 0);
+    clip: rect(92px, 450px, 76px, 0);
   }
   100% {
-    clip: rect(36px, 450px, 112px, 0);
+    clip: rect(29px, 450px, 74px, 0);
   }
 }
 
 @-webkit-keyframes intro-title-anim-2 {
   0% {
-    clip: rect(18px, 450px, 94px, 0);
+    clip: rect(135px, 450px, 110px, 0);
   }
   25% {
-    clip: rect(16px, 450px, 149px, 0);
+    clip: rect(66px, 450px, 83px, 0);
   }
   50% {
-    clip: rect(98px, 450px, 86px, 0);
+    clip: rect(30px, 450px, 22px, 0);
   }
   75% {
-    clip: rect(62px, 450px, 91px, 0);
+    clip: rect(34px, 450px, 40px, 0);
   }
   100% {
-    clip: rect(49px, 450px, 88px, 0);
+    clip: rect(22px, 450px, 38px, 0);
   }
 }
 
 @keyframes intro-title-anim-2 {
   0% {
-    clip: rect(18px, 450px, 94px, 0);
+    clip: rect(135px, 450px, 110px, 0);
   }
   25% {
-    clip: rect(16px, 450px, 149px, 0);
+    clip: rect(66px, 450px, 83px, 0);
   }
   50% {
-    clip: rect(98px, 450px, 86px, 0);
+    clip: rect(30px, 450px, 22px, 0);
   }
   75% {
-    clip: rect(62px, 450px, 91px, 0);
+    clip: rect(34px, 450px, 40px, 0);
   }
   100% {
-    clip: rect(49px, 450px, 88px, 0);
+    clip: rect(22px, 450px, 38px, 0);
   }
 }
 
@@ -3494,70 +3492,70 @@ input[type="checkbox"]:checked + .control__indicator:before {
   }
   @-webkit-keyframes intro-title-anim-1 {
     0% {
-      clip: rect(150px, 900px, 345px, 0);
+      clip: rect(398px, 900px, 354px, 0);
     }
     25% {
-      clip: rect(253px, 900px, 164px, 0);
+      clip: rect(226px, 900px, 108px, 0);
     }
     50% {
-      clip: rect(346px, 900px, 218px, 0);
+      clip: rect(33px, 900px, 74px, 0);
     }
     75% {
-      clip: rect(256px, 900px, 305px, 0);
+      clip: rect(121px, 900px, 6px, 0);
     }
     100% {
-      clip: rect(361px, 900px, 399px, 0);
+      clip: rect(367px, 900px, 133px, 0);
     }
   }
   @keyframes intro-title-anim-1 {
     0% {
-      clip: rect(150px, 900px, 345px, 0);
+      clip: rect(398px, 900px, 354px, 0);
     }
     25% {
-      clip: rect(253px, 900px, 164px, 0);
+      clip: rect(226px, 900px, 108px, 0);
     }
     50% {
-      clip: rect(346px, 900px, 218px, 0);
+      clip: rect(33px, 900px, 74px, 0);
     }
     75% {
-      clip: rect(256px, 900px, 305px, 0);
+      clip: rect(121px, 900px, 6px, 0);
     }
     100% {
-      clip: rect(361px, 900px, 399px, 0);
+      clip: rect(367px, 900px, 133px, 0);
     }
   }
   @-webkit-keyframes intro-title-anim-2 {
     0% {
-      clip: rect(360px, 900px, 144px, 0);
+      clip: rect(204px, 900px, 213px, 0);
     }
     25% {
-      clip: rect(223px, 900px, 181px, 0);
+      clip: rect(42px, 900px, 90px, 0);
     }
     50% {
-      clip: rect(227px, 900px, 308px, 0);
+      clip: rect(304px, 900px, 241px, 0);
     }
     75% {
-      clip: rect(256px, 900px, 273px, 0);
+      clip: rect(241px, 900px, 204px, 0);
     }
     100% {
-      clip: rect(139px, 900px, 295px, 0);
+      clip: rect(331px, 900px, 206px, 0);
     }
   }
   @keyframes intro-title-anim-2 {
     0% {
-      clip: rect(360px, 900px, 144px, 0);
+      clip: rect(204px, 900px, 213px, 0);
     }
     25% {
-      clip: rect(223px, 900px, 181px, 0);
+      clip: rect(42px, 900px, 90px, 0);
     }
     50% {
-      clip: rect(227px, 900px, 308px, 0);
+      clip: rect(304px, 900px, 241px, 0);
     }
     75% {
-      clip: rect(256px, 900px, 273px, 0);
+      clip: rect(241px, 900px, 204px, 0);
     }
     100% {
-      clip: rect(139px, 900px, 295px, 0);
+      clip: rect(331px, 900px, 206px, 0);
     }
   }
   .intro__title[data-emergence="visible"]:before, .intro__title[data-emergence="visible"]:after {
@@ -3710,12 +3708,6 @@ input[type="checkbox"]:checked + .control__indicator:before {
   padding-bottom: 60px;
 }
 
-@media (min-width: 1025px) {
-  .portfolio {
-    padding-bottom: 150px;
-  }
-}
-
 .services__column {
   margin-bottom: 30px;
 }
@@ -3837,7 +3829,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
 
 .skills__item-header {
   margin-bottom: 5px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -3855,7 +3847,7 @@ input[type="checkbox"]:checked + .control__indicator:before {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #5031a9;
+  background-color: #7758cf;
   -webkit-transition: all ease 1s;
   -o-transition: all ease 1s;
   transition: all ease 1s;
@@ -4108,27 +4100,6 @@ input[type="checkbox"]:checked + .control__indicator:before {
   position: relative;
   padding-top: 45px;
   padding-bottom: 45px;
-}
-
-.testimonial:before {
-  position: absolute;
-  top: 0;
-  left: -80%;
-  z-index: -1;
-  width: 120%;
-  height: 65%;
-  content: '';
-  background-color: rgba(80, 49, 169, .1);
-  -webkit-transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  transform: rotate(-5deg);
-}
-
-@media (min-width: 768px) {
-  .testimonial:before {
-    top: 0;
-    height: 80%;
-  }
 }
 
 @media (min-width: 768px) {

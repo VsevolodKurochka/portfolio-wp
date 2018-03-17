@@ -20,7 +20,7 @@
 		<div class="intro__row row">
 			<div class="intro__column col-12 col-md-11">
 				<p class="intro__content">Hello! My name is Vsevolod Kurochka.</p>
-				<h1 class="intro__title intro__title_large" data-emergence="hidden" data-text="Need a selling site or lending? You have come to the right place.">Need a selling site or lending? You have come to the right place.</h1>
+				<h1 class="intro__title intro__title_large" data-emergence="hidden" data-text="Need a selling website? You have come to the right place.">Need a selling website? You have come to the right place.</h1>
 				
 				<ul class="intro__list">
 					<li>Web developer</li>

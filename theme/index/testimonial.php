@@ -9,12 +9,12 @@
  	if($testimonials->have_posts()) :
 ?>
 <section class="testimonial" id="section-testimonial">
-	<div class="testimonial__shape testimonial__shape_right shape shape_brand-1 shape_transparent" data-emergence="hidden">
+	<!-- <div class="testimonial__shape testimonial__shape_right shape shape_brand-1 shape_transparent" data-emergence="hidden">
 		<div class="shape__inner">
 			<div class="shape__inner-shape shape__inner-shape_brand-1">
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="testimonial__container container">
 		<div class="testimonial__row row">
 			<div class="col-12 col-sm-6 col-md-7">
@@ -22,7 +22,7 @@
 					<h3 class="group__title" data-emergence="hidden" data-text="Customer Testimonials">Customer <span class="color-brand-1">Testimonials</span>
 					</h3>
 					<div class="group__content">
-						<p>Customers are always happy with <span class="highlight highlight_brand-3">me</span></p>
+						<p>Customers are always happy with me</p>
 					</div>
 				</div>
 			</div>

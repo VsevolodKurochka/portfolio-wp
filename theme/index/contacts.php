@@ -1,10 +1,10 @@
 <section class="contacts" id="section-contacts">
-	<div class="contacts__shape contacts__shape_left shape shape_brand-1 shape_transparent" data-emergence="hidden">
+	<!-- <div class="contacts__shape contacts__shape_left shape shape_brand-1 shape_transparent" data-emergence="hidden">
 		<div class="shape__inner">
 			<div class="shape__inner-shape shape__inner-shape_brand-1">
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="contacts__container container">
 		<div class="contacts__row row">
 			<div class="col-12 col-sm-6">
