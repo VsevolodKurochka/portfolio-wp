@@ -105,8 +105,8 @@ function seva_portfolio_widgets_init() {
 		'description'   => esc_html__( 'Add widgets here.', 'seva-portfolio' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<p class="widget-title">',
+		'after_title'   => '</p>',
 	) );
 }
 add_action( 'widgets_init', 'seva_portfolio_widgets_init' );
