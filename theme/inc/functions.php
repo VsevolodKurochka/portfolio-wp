@@ -113,8 +113,12 @@ function project($type = null, $i = null, $value = null) {
 		<div class="intro__container container">
 			<h1 class="intro__title intro__title_small" data-emergence="hidden">
 				<?php
+
 					if( is_post_type_archive() ) :
 						post_type_archive_title();
+
+					elseif(is_archive()) :
+						the_archive_title();
 
 					elseif( is_search() ) :
 						if( have_posts() ) :
