@@ -1,0 +1,43 @@
++b('post')
+	&-thumbnail
+		margin-bottom: 30px
+		+size(100%, 300px)
+		overflow: hidden
+		box-shadow: 0px 2px 10px 3px transparentize($color-brand-1, 0.9)
+		img
+			+size(100%)
+			object-fit: cover
+
+	&-header
+		margin-bottom: 30px
+		a
+			color: $color-brand-1
+			text-decoration: none
+
+	&-content
+		font-size: 17px
+		> *
+			margin-bottom: 20px
+
+		ul, ol
+			padding-left: 30px
+
+			li
+				margin-bottom: 15px
+
+		blockquote
+			+relative
+			padding: 20px
+			+font('lora')
+
+			&:before
+				content: '\f10d'
+				font-family: Font Awesome\ 5 Free;
+				font-weight: bold
+				font-size: 40px
+				color: #eaeaea
+
+		hr
+			width: 80%
+			margin: 30px auto
+			border-color: $color-brand-3

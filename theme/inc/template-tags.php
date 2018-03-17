@@ -14,7 +14,7 @@ if ( ! function_exists( 'seva_portfolio_posted_on' ) ) :
 	function seva_portfolio_posted_on() {
 		$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
 		if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
-			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
+			$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time>';
 		}
 
 		$time_string = sprintf( $time_string,
@@ -127,7 +127,7 @@ function seva_portfolio_post_thumbnail() {
 	?>
 
 	<div class="post-thumbnail">
-		<?php the_post_thumbnail(); ?>
+		<?php the_post_thumbnail('single'); ?>
 	</div><!-- .post-thumbnail -->
 
 	<?php else : ?>

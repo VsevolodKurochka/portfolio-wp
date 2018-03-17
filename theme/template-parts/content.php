@@ -10,28 +10,22 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php
-				seva_portfolio_posted_on();
-				seva_portfolio_posted_by();
-			?>
-		</div><!-- .entry-meta -->
-		<?php
-		endif; ?>
-	</header><!-- .entry-header -->
-
+	
 	<?php seva_portfolio_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<header class="post-header">
+		<?php
+		if ( 'post' === get_post_type() ) : ?>
+		<div class="post-meta">
+			<?php
+				seva_portfolio_posted_on();
+			?>
+		</div><!-- .post-meta -->
+		<?php
+		endif; ?>
+	</header><!-- .post-header -->
+
+	<div class="post-content">
 		<?php
 			the_content( sprintf(
 				wp_kses(
@@ -51,9 +45,9 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div><!-- .post-content -->
 
-	<footer class="entry-footer">
+	<footer class="post-footer">
 		<?php seva_portfolio_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer><!-- .post-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

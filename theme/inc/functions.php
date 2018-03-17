@@ -108,7 +108,8 @@ function project($type = null, $i = null, $value = null) {
 <?php } ?>
 
 <?php function custom_header(){ ?>
-	<section class="intro" id="section-intro">
+	<section class="intro intro_default" id="section-intro">
+		
 		<div class="intro__container container">
 			<h1 class="intro__title intro__title_small" data-emergence="hidden">
 				<?php
