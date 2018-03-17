@@ -110,36 +110,33 @@ function project($type = null, $i = null, $value = null) {
 <?php function custom_header(){ ?>
 	<section class="intro" id="section-intro">
 		<div class="intro__container container">
-			<div class="intro__row row">
-				<div class="intro__column col-12 col-sm-6 col-lg-5">
-					<h1 class="intro__title intro__title_small" data-emergence="hidden">
-						<?php
-							if( is_post_type_archive() ) :
-								post_type_archive_title();
+			<h1 class="intro__title intro__title_small" data-emergence="hidden">
+				<?php
+					if( is_post_type_archive() ) :
+						post_type_archive_title();
 
-							elseif( is_search() ) :
-								if( have_posts() ) :
-									echo get_search_query();
-								else:
-									esc_html_e( 'Мы ничего не нашли', 'damir' );
-								endif;
+					elseif( is_search() ) :
+						if( have_posts() ) :
+							echo get_search_query();
+						else:
+							esc_html_e( 'Мы ничего не нашли', 'damir' );
+						endif;
 
-							elseif(is_category()) :
-								single_cat_title();
+					elseif(is_category()) :
+						single_cat_title();
 
-							elseif( is_404() ) :
-								esc_html_e( 'К сожалению! Эта страница не найдена.', 'damir' );
+					elseif( is_404() ) :
+						esc_html_e( 'К сожалению! Эта страница не найдена.', 'damir' );
 
-							elseif( is_tax() ) :
-								single_term_title();
+					elseif( is_tax() ) :
+						single_term_title();
 
-							else:
-								the_title();
+					else:
+						the_title();
 
-							endif;
-						?>
-					</h1>
-			</div>
+					endif;
+				?>
+			</h1>
 		</div>
 	</section>
 <?php } ?>
