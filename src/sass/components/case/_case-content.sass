@@ -1,5 +1,12 @@
 +b('case')
 	&__content
-		position: relative
+		display: none
+		+absolute(null, null, 0, 0)
+		//+padding(null, null, 15px, 15px)
+
+		z-index: 2
+
+		color: $color-white
+
 		+max(sm)
 			+padding-x(15px)

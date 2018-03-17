@@ -2,15 +2,15 @@
 	+e('grid')
 		
 		margin-bottom: 60px
-		//padding: getComp(gutter)
+		padding: getComp(gutter)
 		
 		@supports (display: grid)
 			
 			+min(md)
 				display: grid
-				grid-gap: getComp(gutter)
+				grid-gap: getComp(gutter) / 3
 				grid-template-columns: repeat(4, 1fr)
-				grid-template-rows: 400px 400px
+				grid-template-rows: 300px 300px
 
 		@supports not (display: grid)
 			+max(sm)
@@ -20,16 +20,17 @@
 		+b('case')
 
 			+min(md)
-				&:nth-child(1),
-				&:nth-child(2),
-				&:nth-child(3),
-				&:nth-child(4),
-				&:nth-child(5)
-					+item-change-view()
+
+				+e('content')
+					display: block
 
 				&:nth-child(1)
 					grid-column: 1 / 3
 					grid-row: 1 / 3
+					+b('case')
+						+e('header')
+							&:before
+								background-color: transparentize(darken($color-brand-3, 30%), 0.2)
 
 				&:nth-child(2)
 					grid-column: 3 / 5

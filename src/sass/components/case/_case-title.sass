@@ -3,7 +3,7 @@
 		display: block
 		margin: 7.5px 0
 		font:
-			size: 25px
+			size: 18px
 			weight: bold
 		+font('secondary')
 		letter-spacing: 1px
@@ -12,6 +12,9 @@
 			transform: uppercase
 		color: inherit
 		+transition()
+
+		+min(md)
+			font-size: 20px
 	
 	&:hover &__title
 		color: $color-brand-2

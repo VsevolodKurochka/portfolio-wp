@@ -44,6 +44,7 @@ function project($type = null, $i = null, $value = null) {
 	//$tags = get_tags();
 
 	$link = ($type == 'blog') ? get_permalink() : get_field('link');
+	//$btn_plus_text = ($type == 'blog') ? 'more' : 'visit';
 
 ?>
 <div class="case">
@@ -68,9 +69,9 @@ function project($type = null, $i = null, $value = null) {
 					<?php has_excerpt() ? the_excerpt(): the_content(); ?>
 				</div>
 			</div>
-			<div class="case__footer">
-				<span class="case__link btn btn_plus"><i></i><p>more</p></span>
-			</div>
+			<!-- <div class="case__footer">
+				<span class="case__link btn btn_plus"><i></i><p><?php //echo $btn_plus_text; ?></p></span>
+			</div> -->
 		</div>
 	</div>
 </div>

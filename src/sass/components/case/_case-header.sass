@@ -1,9 +1,19 @@
 +b('case')
 	+e('header')
-		height: 300px
+		height: 100%
 		overflow: hidden
 		font-size: 0
+		+relative
 
+		&:before
+			content: ''
+			+absolute(0, null, null, 0)
+			+size(100%)
+			//background-color: transparentize(darken($color-brand-3, 25%), 0.25)
+			background-color: transparentize($color-black, 0.6)
+			z-index: 1
+
+			+transition
 		&-image
 			+size(100%)
 			object-fit: cover
